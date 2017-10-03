@@ -1,0 +1,51 @@
+<'aaadegrees'='http://www.onehippo.org/aaadegrees/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[aaadegrees:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[aaadegrees:bannerdocument] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:contentdocument] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:eventsdocument] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:homepage] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:newsdocument] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:practicalinfo] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:practicalinfoblock] > hippo:compound, hippostd:relaxed
+  orderable
+
+[aaadegrees:program] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:richtext] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:streamitem] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:studiesblock] > hippo:compound, hippostd:relaxed
+  orderable
+
+[aaadegrees:studiesoverview] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:video] > aaadegrees:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[aaadegrees:year] > hippo:compound, hippostd:relaxed
+  orderable
+

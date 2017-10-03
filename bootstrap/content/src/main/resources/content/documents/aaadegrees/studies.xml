@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="studies">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>9f22d097-dc4b-4e34-81fe-97262e3d530c</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>187e0de7-98da-44ea-bc6f-3b16d7b720db</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>nl</sv:value>
+  </sv:property>
+  <sv:node sv:name="marketing-management">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:named</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>07b5278e-dd5e-44fa-833c-72ec832fff70</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Marketing Management</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>0e2dc72c-5a85-4791-9cd9-419e5a0e3337</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="my-richtext">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e7ad5fb1-4327-4c2c-b856-32aba1a8a9ab</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>My Richtext</sv:value>
+      </sv:property>
+      <sv:node sv:name="my-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6d2d903e-0288-490a-99a4-18226b2db594</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Richtext Component</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/my-richtext/my-richtext[2]</sv:value>
+          <sv:value>studies/marketing-management/my-richtext/my-richtext[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-24T14:34:12.877+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50118991-841f-4daa-9803-c41002469ac1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;And this is &lt;a href="breakfast" style="color:blue;"&gt;some&lt;/a&gt; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class="btn btn-primary" href="http://www.avans.nl"&gt;BUTTON&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul class="checked-list"&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;acdcd&lt;/li&gt;
+ &lt;li&gt;cdcdc&lt;/li&gt;
+ &lt;li&gt;asdasdasdasdasd&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="my-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a669bc08-73e0-409a-8aea-b37d9065962d</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Richtext Component</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/my-richtext/my-richtext[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-20T14:45:11.500+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50118991-841f-4daa-9803-c41002469ac1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;And this is &lt;a href="breakfast" style="color:blue;"&gt;some&lt;/a&gt; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class="btn btn-primary" href="http://www.avans.nl"&gt;BUTTON&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul class="checked-list"&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;acdcd&lt;/li&gt;
+ &lt;li&gt;cdcdc&lt;/li&gt;
+ &lt;li&gt;asdasdasdasdasd&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="my-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e300e77e-c4fa-4335-8017-6c95d0280878</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Richtext Component</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/my-richtext/my-richtext[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-20T14:45:11.500+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-03-20T14:45:13.211+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50118991-841f-4daa-9803-c41002469ac1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;And this is &lt;a href="breakfast" style="color:blue;"&gt;some&lt;/a&gt; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class="btn btn-primary" href="http://www.avans.nl"&gt;BUTTON&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul class="checked-list"&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+ &lt;li&gt;asd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+ &lt;li&gt;acdcd&lt;/li&gt;
+ &lt;li&gt;cdcdc&lt;/li&gt;
+ &lt;li&gt;asdasdasdasdasd&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="program">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d38cd3d4-b84b-487a-912c-32c4ec57bb5e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Program</sv:value>
+      </sv:property>
+      <sv:node sv:name="program">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:program</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>421ed010-20d8-4166-ae98-cf52c7d59cfe</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Wat ga je doen?</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Het programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/program/program[3]</sv:value>
+          <sv:value>studies/marketing-management/program/program[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-28T13:32:49.333+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-20T11:06:29.464+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b80c674e-213b-404d-80b2-5af2c54c57cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 1</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 2</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum 2...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="program">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:program</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>367453f4-b966-48c4-a6eb-50bbd0175aa9</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Wat ga je doen?</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Het programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/program/program[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-28T13:32:49.333+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-20T10:45:52.896+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b80c674e-213b-404d-80b2-5af2c54c57cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 1</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 2</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum 2...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="program">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:program</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>25e2d813-f4b9-4689-b50c-43077cc01329</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Wat ga je doen?</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Het programma</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/program/program[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-28T13:32:49.333+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-20T10:45:52.896+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-03-20T10:45:55.047+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b80c674e-213b-404d-80b2-5af2c54c57cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 1</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:year">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:year</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Jaar 2</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum 2...&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vakken jaar 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border="0" cellpadding="1" cellspacing="1" style="width:500px"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 1&lt;/td&gt;
+   &lt;td&gt;Naam 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 2&lt;/td&gt;
+   &lt;td&gt;Naam 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 3&lt;/td&gt;
+   &lt;td&gt;Naam 3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Blok 4&lt;/td&gt;
+   &lt;td&gt;Naam 4&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="another-richtext">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6d2cc4ed-96b4-4e08-be65-1936541ee631</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Another Richtext</sv:value>
+      </sv:property>
+      <sv:node sv:name="another-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d6e1b9b8-d6ea-443f-a5f7-9fd83fdf22fc</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Chapeau Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Right Column title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/another-richtext/another-richtext[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-04-28T17:23:14.367+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>58cfe3ac-cafe-4125-9af1-1ce56604c9a0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;&amp;nbsp;&lt;a class="btn" href="breakfast" style="color:blue;"&gt;some&lt;/a&gt;&amp;nbsp;more&amp;nbsp; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:secondcontent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;bla bla second column&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="another-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0f5fc7f6-0764-4a96-9695-e614f7a79779</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Chapeau Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Right Column title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/another-richtext/another-richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-04-28T17:23:14.367+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-04-28T17:23:17.845+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>58cfe3ac-cafe-4125-9af1-1ce56604c9a0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;&amp;nbsp;&lt;a class="btn" href="breakfast" style="color:blue;"&gt;some&lt;/a&gt;&amp;nbsp;more&amp;nbsp; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:secondcontent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;bla bla second column&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="another-richtext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c722c91d-bc05-4c9a-a80f-e93231e7a76c</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Chapeau Intro</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>This is the Right Column title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/another-richtext/another-richtext[2]</sv:value>
+          <sv:value>studies/marketing-management/another-richtext/another-richtext</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-02-27T12:44:40.399+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-04-28T17:23:06.297+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>58cfe3ac-cafe-4125-9af1-1ce56604c9a0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;&amp;nbsp;&lt;a class="btn" href="breakfast" style="color:blue;"&gt;some&lt;/a&gt;&amp;nbsp;more&amp;nbsp; styled &lt;strong&gt;&lt;a href="http://www.avans.nl"&gt;content&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="breakfast">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:secondcontent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;bla bla second column&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="practical-info">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4c4ae81a-e47a-492e-9f0e-8f90c5ffbe90</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Practical Info</sv:value>
+      </sv:property>
+      <sv:node sv:name="practical-info">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfo</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b153ebbf-0f0f-4fef-94ee-f1a1b7e0a229</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Practical Info Chapeau</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Practical Info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Practical Info Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/practical-info/practical-info[3]</sv:value>
+          <sv:value>studies/marketing-management/practical-info/practical-info[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:19:54.436+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:37:14.661+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>371131f4-db87-46f2-9dc2-e8bed1d4a4d4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:blocks">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:practicalinfoblock</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:string" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Block title</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:link">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="aaadegrees:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="practical-info">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfo</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c202e261-d6f4-42a4-aa49-7be89c1b7f02</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Practical Info Chapeau</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Practical Info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Practical Info Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/practical-info/practical-info[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:19:54.436+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:37:30.071+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>371131f4-db87-46f2-9dc2-e8bed1d4a4d4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:blocks">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:practicalinfoblock</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:string" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Block title</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:link">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="aaadegrees:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="practical-info">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfo</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3128496b-24a3-4c6c-8954-5c0970503cf0</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+          <sv:value>Practical Info Chapeau</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+          <sv:value>Practical Info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Practical Info Title</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>studies/marketing-management/practical-info/practical-info[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:19:54.436+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:37:30.071+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2017-03-01T16:37:32.159+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>371131f4-db87-46f2-9dc2-e8bed1d4a4d4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:blocks">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>aaadegrees:practicalinfoblock</sv:value>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:string" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="aaadegrees:title" sv:type="String">
+            <sv:value>Block title</sv:value>
+          </sv:property>
+          <sv:node sv:name="aaadegrees:link">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="aaadegrees:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ab00eef6-828f-4c1c-a7ab-225152235657</sv:value>
+    </sv:property>
+    <sv:node sv:name="overview">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:studiesoverview</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>350a4a31-56fa-46b5-988d-d3ba3a8cbe9f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>studies/overview/overview[2]</sv:value>
+        <sv:value>studies/overview/overview[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-27T20:16:53.693+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-05-01T10:02:04.107+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8650760a-302a-43ed-9d9b-38d8f7be4481</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Onze voltijdopleidingen zijn samen met het bedrijfsleven ontwikkeld. We bieden alleen Associate degrees (Ad’s) aan waar in het bedrijfsleven vraag naar is. Dat merk je al tijdens de stages en opdrachten die je uitvoert voor bedrijven. In al onze Ad’s is de praktijk het sleutelwoord.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/opleidingen/marketing-management</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Marketing Management</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/test</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>test</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="overview">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:studiesoverview</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3925d2c6-545d-489b-b5ec-6ddf5a254236</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>studies/overview/overview[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-27T20:16:53.693+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-05-01T10:02:08.956+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8650760a-302a-43ed-9d9b-38d8f7be4481</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Onze voltijdopleidingen zijn samen met het bedrijfsleven ontwikkeld. We bieden alleen Associate degrees (Ad’s) aan waar in het bedrijfsleven vraag naar is. Dat merk je al tijdens de stages en opdrachten die je uitvoert voor bedrijven. In al onze Ad’s is de praktijk het sleutelwoord.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/opleidingen/marketing-management</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Marketing Management</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/test</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>test</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="overview">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:studiesoverview</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3e7d93fd-fab7-4065-b063-a8bcd0e92f82</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>studies/overview/overview[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-27T20:16:53.693+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-05-01T10:02:08.956+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-05-01T10:02:10.581+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8650760a-302a-43ed-9d9b-38d8f7be4481</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Onze voltijdopleidingen zijn samen met het bedrijfsleven ontwikkeld. We bieden alleen Associate degrees (Ad’s) aan waar in het bedrijfsleven vraag naar is. Dat merk je al tijdens de stages en opdrachten die je uitvoert voor bedrijven. In al onze Ad’s is de praktijk het sleutelwoord.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/opleidingen/marketing-management</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Marketing Management</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:studies">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:studiesblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/test</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:subtitle" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>test</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

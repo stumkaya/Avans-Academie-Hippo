@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="hst:templates" esv:merge="combine">
+  <sv:node sv:name="eventblock">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/eventblock.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-full-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-full-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="banner">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/banner.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="right-standardized">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/right-standardized.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="socialmedia">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/socialmedia.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="program">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/program.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="title">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/title.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-homepage.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-layout">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-layout.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-top-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-top-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="practicalinfo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/practicalinfo.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="quicklinks-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/quicklinks-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="stream">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/stream.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-two-column-layout">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-two-column-layout.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="studieslinks">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/studieslinks.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="richtext">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/richtext.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/aaadegrees/base-footer.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

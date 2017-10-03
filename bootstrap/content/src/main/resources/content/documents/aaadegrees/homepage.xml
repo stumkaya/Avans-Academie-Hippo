@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="homepage">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:handle</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:named</sv:value>
+    <sv:value>mix:referenceable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>89a305f4-b05f-4428-8c3b-8b8253b15dc6</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Homepage</sv:value>
+  </sv:property>
+  <sv:node sv:name="homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>aaadegrees:homepage</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0374fb1e-b9c5-4f1c-ab81-7a778afcc5ee</sv:value>
+    </sv:property>
+    <sv:property sv:name="aaadegrees:youtubecode" sv:type="String">
+      <sv:value>PCUdqbBZeLo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>homepage/homepage[2]</sv:value>
+      <sv:value>homepage/homepage[3]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>draft</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2017-03-23T11:47:49.495+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2017-04-05T12:42:45.377+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>d91d72f9-a7b1-4c98-8b41-db8cc40855b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="aaadegrees:backgroundimage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:backgroundimagexs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>9a3f1f5c-5302-43c4-9bec-584e810ffa2f</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:event">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>aaadegrees:homepage</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:versionable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0ca58ac4-8e89-4a34-b099-b22d04c1a3bf</sv:value>
+    </sv:property>
+    <sv:property sv:name="aaadegrees:youtubecode" sv:type="String">
+      <sv:value>PCUdqbBZeLo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>homepage/homepage[3]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>unpublished</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2017-03-23T11:47:49.495+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2017-04-05T12:42:49.440+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>d91d72f9-a7b1-4c98-8b41-db8cc40855b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="aaadegrees:backgroundimage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:backgroundimagexs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>9a3f1f5c-5302-43c4-9bec-584e810ffa2f</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:event">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>aaadegrees:homepage</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d786b4c0-4b8d-4890-9fa1-132e8ec402f3</sv:value>
+    </sv:property>
+    <sv:property sv:name="aaadegrees:youtubecode" sv:type="String">
+      <sv:value>PCUdqbBZeLo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+      <sv:value>homepage/homepage[2]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:state" sv:type="String">
+      <sv:value>published</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+      <sv:value>live</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+      <sv:value>2017-03-23T11:47:49.495+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+      <sv:value>2017-04-05T12:42:49.440+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+      <sv:value>2017-04-05T12:42:51.629+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>d91d72f9-a7b1-4c98-8b41-db8cc40855b7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="aaadegrees:backgroundimage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:backgroundimagexs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>9a3f1f5c-5302-43c4-9bec-584e810ffa2f</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aaadegrees:event">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:mirror</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b8f5eb45-7200-452a-b26e-3118a0dc60b8</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="practical-information">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>ec76e6a3-d798-4c71-bb21-31f60b430ae1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>practical information</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>670ce28a-0a31-48da-96ab-81f8e192cad1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>nl</sv:value>
+  </sv:property>
+  <sv:node sv:name="practical-info">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>27fe7fef-fbf1-4613-8ef3-01ac5025c02e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Practical Info</sv:value>
+    </sv:property>
+    <sv:node sv:name="practical-info">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:practicalinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c3ba1f23-2c71-4cba-b1d0-cf4d756b2e02</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+        <sv:value>En dan nog even dit.</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:introduction" sv:type="String">
+        <sv:value>Bla bla bla</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+        <sv:value>pratinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:title" sv:type="String">
+        <sv:value>Praktische Informatie</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>practical-information/practical-info/practical-info[2]</sv:value>
+        <sv:value>practical-information/practical-info/practical-info[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-09T15:57:03.659+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-03-27T21:16:43.621+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d3ee2b92-5b88-48f2-b6e4-e9e100b917b4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Studiekosten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Aanmelden</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>9caea793-42b1-4f3e-a8e5-d58f810ce2ef</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Locatie en faciliteiten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>description</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info-bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>title</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="practical-info">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:practicalinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1488e518-1013-42ce-9672-7578e3b958fd</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:chapeau" sv:type="String">
+        <sv:value>En dan nog even dit.</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:introduction" sv:type="String">
+        <sv:value>Bla bla bla</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+        <sv:value>pratinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:title" sv:type="String">
+        <sv:value>Praktische Informatie</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>practical-information/practical-info/practical-info[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-09T15:57:03.659+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-03-27T21:16:47.610+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d3ee2b92-5b88-48f2-b6e4-e9e100b917b4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Studiekosten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Aanmelden</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>9caea793-42b1-4f3e-a8e5-d58f810ce2ef</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Locatie en faciliteiten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>description</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info-bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>title</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="practical-info">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>aaadegrees:practicalinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>938e5426-81ba-4d84-815b-de878238316e</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:introduction" sv:type="String">
+        <sv:value>Bla bla bla</sv:value>
+      </sv:property>
+      <sv:property sv:name="aaadegrees:stickymenuitem" sv:type="String">
+        <sv:value>pratinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>practical-information/practical-info/practical-info[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-03-09T15:57:03.659+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-03-27T21:16:47.610+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-03-27T21:16:49.575+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d3ee2b92-5b88-48f2-b6e4-e9e100b917b4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum bla bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Studiekosten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Lorem ipsum</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value>Lees verder</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Aanmelden</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>9caea793-42b1-4f3e-a8e5-d58f810ce2ef</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:string" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>Locatie en faciliteiten</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8305df39-4647-41f7-b5c1-7807701289cb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>description</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value>/practical-information/practical-info-bla</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>bla bla</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="aaadegrees:blocks">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>aaadegrees:practicalinfoblock</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:description" sv:type="String">
+          <sv:value>Description for the practical info page</sv:value>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:link" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:linktext" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="aaadegrees:title" sv:type="String">
+          <sv:value>title</sv:value>
+        </sv:property>
+        <sv:node sv:name="aaadegrees:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" esv:merge="combine">
+  <sv:node sv:name="cms-services" esv:merge="combine">
+    <sv:node sv:name="imageValidationService" esv:merge="combine">
+      <sv:property sv:name="max.width" sv:type="Long" esv:merge="override">
+        <sv:value>3360</sv:value>
+      </sv:property>
+      <sv:property sv:name="max.height" sv:type="Long" esv:merge="override">
+        <sv:value>1552</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
