@@ -28,22 +28,14 @@
                             position: absolute;
                             height: 100%;
                             width: 600%;
-                            right: 0;
+                            right: -79px;
+                            transform: skew(-10deg);
                             @include opacity('background-color', $color-black, 50);
                         }
                     }
 
                     &:last-child() {
                         padding: 0;
-
-                        &:before {
-                            content: '';
-                            display: block;
-                            position: relative;
-                            height: 100%;
-                            background: url('../images/skew.svg') no-repeat top left;
-                            background-size: contain;
-                        }
                     }
 
                     > p {
