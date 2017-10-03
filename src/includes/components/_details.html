@@ -1,0 +1,43 @@
+<div class="component-details">
+    <a class="anchor" id="vergelijking-onderwijsniveaus" name="vergelijking-onderwijsniveaus" class="anchor" data-name="Vergelijking onderwijsniveau’s"></a>
+    <header>
+        <!--<span class="chapeau">Etiam ipsum orci</span>-->
+        <h2>Vergelijking onderwijsniveau’s</h2>
+    </header>
+
+    <p>Een overzicht van de competenties van de verschillende onderwijsniveaus:</p>
+
+    <div class="row hidden-md hidden-lg">
+        <div class="col-xs-12 text-center">
+            <div class="pager-container">
+                <div class="pager-left"><a href="#" class="page-left">Mbo4</a></div>
+                <ul class="pager-state">
+                    <li class="inactive"></li>
+                    <li class="inactive active"></li>
+                    <li class="inactive"></li>
+                </ul>
+                <div class="pager-right"><a href="#" class="page-right">Bachelor</a></div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="row details">
+        @@include('./_detail.html', {"title": "Mbo 4", "type": "Mbo", "level": "Onderwijsniveau 4", "duration": "4 jaar", "ad": false})
+        @@include('./_detail.html', {"title": "Associate degree", "type": "HBO", "level": "Onderwijsniveau 5", "duration": "2 jaar", "ad": true})
+        @@include('./_detail.html', {"title": "Bachelor", "type": "Hbo", "level": "Onderwijsniveau 6", "duration": "4 jaar", "ad": false})
+    </div>    
+
+    <div class="row hidden-md hidden-lg">
+        <div class="col-xs-12 text-center">
+            <div class="pager-container">
+                <div class="pager-left"><a href="#" class="page-left">Mbo4</a></div>
+                <ul class="pager-state">
+                    <li class="inactive"></li>
+                    <li class="inactive active"></li>
+                    <li class="inactive"></li>
+                </ul>
+                <div class="pager-right"><a href="#" class="page-right">Bachelor</a></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,110 @@
+
+&slider {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 60px;
+    overflow: auto;
+    overflow-y: hidden;
+
+    .slider {
+        position: relative;
+        overflow: hidden;
+        @include clearfix();
+
+        .slide {
+            position: relative;
+            float: left;
+            transform: skewX(-11deg);
+            overflow: hidden;
+
+            .slide-img {
+                position: absolute;
+                left: 50%;
+                transform: skewX(11deg) translateX(-50%);
+
+                img {
+                    position:relative;
+                    width: 100%;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            figcaption {
+                display: none;
+            }
+        }
+    }
+
+    .slider-controls {
+        display: none;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &slider {
+        overflow: hidden;
+
+        .slider-controls {
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+
+            .ctrl-prev, .ctrl-next {
+                display: none;
+                position: absolute;
+                height: 100%;
+                width: 10%;
+
+                span {
+                    display: none;
+                }
+
+                &:after {
+                    position: absolute;
+                    content: '';
+                    display: block;
+                    height: 50px;
+                    width: 25px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: $color-red url(../images/chevron-white.svg) no-repeat center;
+                }
+
+                &:hover {
+
+                    &:after {
+                        background: $color-black url(../images/chevron-white.svg) no-repeat center;
+                    }
+                }
+            }
+
+            .ctrl-next {
+                right: 0;
+
+                &:after {
+                    right: 0;
+                }
+            }
+
+            .ctrl-prev {
+                
+                &:after {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

@@ -1,0 +1,367 @@
+
+// 100 Thin (Hairline)
+// 200 Extra Light (Ultra Light)
+// 300 Light
+// 400 Normal
+// 500 Medium
+// 600 Semi Bold (Demi Bold)
+// 700 Bold
+// 800 Extra Bold (Ultra Bold)
+// 900 Black (Heavy)
+
+body {
+    font-family: $FrutigerLTStd-Roman;
+    @include font-size(1.4);
+    line-height: 2;
+    color: $text-color;
+
+    .h1, .h2, .h3, .h4, .h5, .h6,
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $FrutigerLTStd-BlackCn;
+        line-height: 1;
+    }
+
+    h1, .h1 {
+        @include font-size(2.4);
+        text-transform: uppercase;
+    }
+
+    h2, .h2 {
+        font-family: $FrutigerLTStd-LightCn;
+        @include font-size(2.4);
+    }
+
+    h3, .h3 {
+        font-family: $FrutigerLTStd-LightCn;
+        @include font-size(2.0);
+    }
+
+    h4, .h4 {
+        font-family: $FrutigerLTStd-Bold;
+        font-weight: normal;
+        line-height: 2;
+
+        & + table {
+            @include rem('margin-top', 30px);
+        }
+    }
+
+    p {
+        @include rem('margin-bottom', 28px);
+
+        &.lead {
+            @include font-size(1.4);
+            line-height: 2;
+        }
+    }
+
+    p.lead, strong, em {
+        font-family: $FrutigerLTStd-Bold;
+        font-weight: normal;
+    }
+
+    .form-control {
+        @include font-size(1.4);
+    }
+
+    .anchor {
+        position: relative;
+        top: -60px;
+    }
+
+    a {
+        color: $link-color;
+
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+
+    .btn {
+        @include rem('padding', 13px 20px);
+        @include rem('margin-bottom', 8px);
+        font-family: $FrutigerLTStd-BlackCn;
+        text-transform: uppercase;
+        line-height: 1;
+        border: 0;
+
+        &.btn-primary {
+            background-color: $color-red;
+
+            &:hover {
+                background-color: $color-black;
+            }
+        }
+
+        &.btn-inactive {
+            color: $color-white;
+            background-color: $color-light-gray;
+        }
+
+        &:active, &.active {
+            box-shadow: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .link {
+        position: relative;
+        display: inline-block;
+        @include rem('padding', 9px 0 9px 30px);
+        margin: 0;
+        @include rem('margin-bottom', 8px);
+        @include font-size(1.4);
+        line-height: 2;
+        color: $color-black;
+        text-decoration: none;
+        vertical-align: middle;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            background: url('../images/chevron-black.svg') no-repeat top left;
+            @include rem('margin', 0 9px);
+            height: 12px;
+            width: 7px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:hover {
+            text-decoration: underline;
+
+            &:before {
+                background: url('../images/chevron-red.svg') no-repeat top left;            
+            }
+        }
+    }
+
+    .link-list {
+        font-family: $FrutigerLTStd-Roman;
+        @include font-size(1.4);
+        line-height: 2.29;
+        list-style: none;
+        @include rem('padding-left', 22px);
+
+        li {
+            position: relative;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                @include rem('margin', 10px 11px 10px -18px);
+                height: 12px;
+                width: 7px;
+            }
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &.black {
+
+            li:before {
+                background: url('../images/chevron-black.svg') no-repeat top left;
+            }
+        }
+
+        &.white {
+
+            li:before {
+                background: url('../images/chevron-white.svg') no-repeat top left;
+            }
+
+            a {
+                color: $color-white;
+            }
+        }
+
+        &.red {
+
+            li:before {
+                background: url('../images/chevron-red.svg') no-repeat top left;
+            }
+        }
+    }
+
+    .event-link {
+        background: url('../images/open-avond.svg') no-repeat;
+        @include rem('padding', 5px 0 0 45px);
+        color: $color-white;
+        text-decoration: none;
+
+        h2 {
+            font-family: $FrutigerLTStd-BlackCn;
+            @include font-size(1.6);
+            text-transform: uppercase;
+            line-height: normal;
+        }
+
+        p {
+            font-family: $FrutigerLTStd-Bold;
+            @include font-size(1.2);
+            margin-bottom: 0;
+        }
+
+        .link-list {
+            @include font-size(1.2);
+        }
+
+        &:hover {
+            color: $color-white;
+            
+            .link-list {
+
+                > * {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    table {
+
+        tr {
+
+            td {
+                color: $color-dark-gray;
+                vertical-align: top;
+                @include rem('padding-bottom', 20px);
+                line-height: 2.29;
+
+                &:first-child() {
+                    font-family: $FrutigerLTStd-Bold;
+                    color: $color-red;
+                    @include rem('padding-right', 40px);
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+// used to prevent some problems with the header
+.header-row {
+    @include make-row();
+    padding-top: 0 !important;
+    padding-bottom: 45px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+        @include font-size(1.6);
+
+        h1, .h1 {
+            @include font-size(3.2);
+        }
+
+        h2, .h2 {
+            @include font-size(4.8);
+        }
+
+        h3, .h3 {
+            @include font-size(2.4);
+        }
+
+        p {
+            @include rem('margin-bottom', 32px);
+
+            &.lead {
+                @include font-size(1.6);
+            }
+        }
+
+        .form-control {
+            @include font-size(1.6);
+        }
+
+        .btn {
+            @include font-size(1.6);
+            @include rem('padding', 17px 20px);
+            @include rem('margin-bottom', 14px);
+        }
+
+        .link {
+            @include font-size(1.6);
+            @include rem('padding', 9px 0 9px 25px);
+            @include rem('margin-bottom', 14px);
+        }    
+
+        .checked-list {
+            @include font-size(1.6);
+            @include rem('margin-bottom', 100px);
+
+            li {
+                position: relative;
+                @include rem('padding-left', 35px);
+
+                &:before {
+                    @include rem('margin', 7px 0);
+                }
+            }
+        }
+
+        table {
+
+            tr {
+
+                td {
+                    @include rem('padding-bottom', 16px);
+                    line-height: 2;
+
+                    &:first-child() {
+                        @include rem('padding-right', 50px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    body {
+
+        h1, .h1 {
+            @include font-size(4.0);
+        }
+
+        .event-link {
+
+            h2 {
+                @include font-size(2.4);
+            }
+
+            p {
+                font-family: $FrutigerLTStd-Roman;
+                @include font-size(1.4);
+            }
+
+            .link-list {
+                @include font-size(1.4);
+            }
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    body {
+
+        h1, .h1 {
+            @include font-size(4.8);
+        }
+    }
+}

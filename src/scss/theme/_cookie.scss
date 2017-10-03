@@ -1,0 +1,49 @@
+
+body {
+    
+    .cookie-box {
+        @include container-fixed;
+        overflow: hidden;
+        transition: height .3s;
+        background-color: $color-red;
+        color: $color-white;
+        height: 0;
+
+        > div {
+            @include rem('margin-top', 15px);
+            @include rem('margin-bottom', 15px);
+
+            > div {
+                position: relative;
+                padding-right: 60px;
+
+                .cookie-toggle {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -45px;
+
+                    .svg {
+                        display: block;
+                        width:30px;
+                        height: 30px;
+                    }
+                }
+
+                a {
+                    color: $color-white;
+                    text-decoration: underline;
+
+                    &:hover {
+                        color: $color-white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        &.show {
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+html {
+    // set root value for better REM handling
+    font-size: 62.5%; /* 62.5% of 16px = 10px */
+}
+
+body {
+    &::after {
+        content: 'xs';
+        display: none;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+        &::after {
+            content: 'sm';
+            display: none;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    body {
+        &::after {
+            content: 'md';
+            display: none;
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    body {
+        &::after {
+            content: 'lg';
+            display: none;
+        }
+    }
+}

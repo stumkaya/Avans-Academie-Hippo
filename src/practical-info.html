@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+    
+    @@include('./includes/_cookie-box.html')
+
+    @@include('./includes/_search-box.html')
+    
+    <div class="container-fluid">
+        <header>
+
+            @@include('./includes/_navigation.html')
+
+            @@include('./includes/components/_header.html', {"title": "Praktische informatie"})
+
+        </header>
+        
+    </div>
+    <div class="container-fluid content">
+
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12">
+                    <div class="component-overview">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-7">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum 
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales 
+                                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+                                    ridiculus mus.</p>
+                            </div>
+                        </div>
+                        <div class="row cards">
+                            @@include('./includes/components/_card.html', { "title": "Studiekosten", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+                            @@include('./includes/components/_card.html', { "title": "Aanmelden", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+                            @@include('./includes/components/_card.html', { "title": "Veelgestelde vragen", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+                            @@include('./includes/components/_card.html', { "title": "Locatie en faciliteiten", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+                            @@include('./includes/components/_card.html', { "title": "Studeren in ’s-Hertogenbosch", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    @@include('./includes/_footer.html')
+
+    @@include('./includes/_scripts.html')
+</body>
+
+</html>

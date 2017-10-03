@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+    
+    @@include('./includes/_cookie-box.html')
+    
+    @@include('./includes/_search-box.html')
+
+    <div class="container-fluid">
+        <header>
+            @@include('./includes/_navigation.html')
+
+            @@include('./includes/components/_hero.html', {"title": "Marketing Management", "subTitle": "Associate degree, tweejarig hbo, ’s-Hertogenbosch", "introduction": "“Ik krijg een kick van verkopen.”"})
+        </header>
+
+    </div>
+    <div class="container-fluid content">
+
+        @@include('./includes/_study-quick-nav.html')
+
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12 col-sm-8">
+                    @@include('./includes/components/_content.html')
+                </section>
+                <aside class="col-xs-12 col-sm-4">
+
+                    @@include('./includes/components/_widget-secondary.html')
+
+                    <div class="component-widget widget-red">
+                        <header>
+                            <h3 class="panel-title">Kom langs</h3>
+                        </header>
+                        <div>
+                            <p><strong>Open avond</strong><br>
+                            10 april</p>
+                            <ul class="link-list">
+                                <li><a href="#">Meer informatie</a></li>
+                                <li><a href="#">Inschrijven</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    @@include('./includes/components/_social.html')
+
+                    <div class="component-widget widget-gray">
+                        <header>
+                            <h3 class="panel-title">Blijf op de hoogte</h3>
+                        </header>
+                        <div>
+                            <p>Ontvang regelmatig updates over Avans Academie in je mail.</p>
+                            <ul class="link-list">
+                                <li><a href="#">Inschrijven</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="component-widget widget-white">
+                        <header>
+                            <h3>Vergelijk</h3>
+                        </header>
+                        <div>
+                            <p>Ontvang regelmatig updates over Avans Academie in je mail.</p>
+                            <ul class="link-list">
+                                <li><a href="#">Vergelijk het hier</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        @@include('./includes/components/_slider.html')
+
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12">
+                    @@include('./includes/components/_tab.html')
+
+                    @@include('./includes/components/_content-split.html')
+
+                    @@include('./includes/components/_content-cta.html')
+
+                    @@include('./includes/components/_info.html', {"introduction": ""})
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    @@include('./includes/_footer.html')
+
+    @@include('./includes/_scripts.html')
+</body>
+
+</html>

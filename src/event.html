@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+
+    @@include('./includes/_cookie-box.html')
+
+    @@include('./includes/_search-box.html')
+    
+    <div class="container-fluid">
+        <header>
+
+            @@include('./includes/_navigation.html')
+
+
+        </header>
+    </div>
+    <div class="container-fluid content">
+
+        <div class="header-row">
+            @@include('./includes/components/_event-hero.html', {"title": "Studiekosten"})
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12">
+                    @@include('./includes/components/_content-split.html')
+
+                    @@include('./includes/components/_social.html')
+                </section>
+            </div>
+        </div>
+    </div>
+
+    @@include('./includes/_footer.html')
+
+    @@include('./includes/_scripts.html')
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.event {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.event__image {
+  float: left;
+  height: 165px;
+  width: 165px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $color-red;
+}
+
+.event__body {
+  color: black;
+  height: 165px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 20px 30px 25px 195px;
+  line-height: normal;
+  background-size: 7px 12px;
+  background: url("/images/chevron-black.svg") no-repeat 97.5%;
+
+  &:hover {
+    background-image: url("/images/chevron-red.svg");
+  }
+}
+
+.event__date {
+  display: block;
+  font-size: 11px;
+  color: #c6002a;
+  margin-bottom: 5px;
+}
+
+.event__title {
+  display: block;
+  font-family: $FrutigerLTStd-LightCn;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.event__location {
+  font-size: 14px;
+}
+
+.event-page-buttons {
+
+  a {
+    @include rem('margin-bottom', 50px);
+  }
+  a:first-child {
+    @include rem('margin-right', 10px);
+  }
+
+  @media (min-width: $screen-md) {
+    a {
+      @include rem('margin-bottom', 100px);
+    }
+  }
+}

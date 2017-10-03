@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+
+    @@include('./includes/_cookie-box.html')
+
+    @@include('./includes/_search-box.html')
+
+    <div class="container-fluid">
+        <header>
+
+            @@include('./includes/_navigation.html')
+
+        </header>
+
+    </div>
+    <div class="container-fluid content">
+
+        <div class="header-row">
+            @@include('./includes/components/_header.html', {"title": "Evenementen"})
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-8">
+
+                    <a class="event" href="#">
+                        <div class="event__image" style="background-image: url('/photos/pattern_1.jpg');"></div>
+                        <div class="event__body">
+                            <span class="event__date">10 april 2017</span>
+                            <span class="event__title">Open dag</span>
+                            <span class="event__location">’s-Hertogenbosch</span>
+                        </div>
+                    </a>
+
+                    <a class="event" href="#">
+                        <div class="event__image" style="background-image: url('/photos/pattern_2.jpg');"></div>
+                        <div class="event__body">
+                            <span class="event__date">22 mei 2017</span>
+                            <span class="event__title">Proefstuderen</span>
+                            <span class="event__location"><b>Finance</b>, ’s-Hertogenbosch</span>
+                        </div>
+                    </a>
+
+                    <div class="event-page-buttons">
+
+                        <a href="#" class="btn btn-inactive">Vorige 10</a>
+
+                        <a href="#" class="btn btn-primary">Volgende 10</a>
+
+                    </div>
+
+                </div>
+
+                <aside class="col-xs-12 col-sm-4">
+                    <div class="component-widget widget-red">
+                        <header>
+                            <h3 class="panel-title">Kom langs</h3>
+                        </header>
+                        <div>
+                            <p><strong>Open avond</strong><br>
+                                10 april</p>
+                            <ul class="link-list">
+                                <li><a href="#">Meer informatie</a></li>
+                                <li><a href="#">Inschrijven</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    @@include('./includes/_footer.html')
+
+    @@include('./includes/_scripts.html')
+</body>
+
+</html>

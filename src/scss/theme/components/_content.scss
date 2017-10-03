@@ -1,0 +1,106 @@
+
+&content {
+    @include rem('margin-bottom', 60px);
+
+    > *:last-child() {
+        margin-bottom: 0;
+    }
+
+    > .row {
+        
+        > * {
+            @include rem('margin-bottom', 28px);
+
+            &:last-child() {
+                margin-bottom: 0;
+            }
+
+            > *:last-child() {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    ul {
+        @include font-size(1.4);
+        line-height: 2;
+        list-style: none;
+        @include rem('margin-bottom', 60px);
+
+        li {
+            position: relative;
+            @include rem('padding-left', 30px);
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                background: url('../images/list-item-default.svg') no-repeat top left;
+                margin: 5px 0;
+                height: 18px;
+                width: 18px;
+                left: 0;
+            }
+        }
+
+        &.checked-list {
+
+            li {
+
+                &:before {
+                    background: url('../images/list-item-checked.svg') no-repeat top left;
+                }
+            }
+        }
+    }
+
+    h4 {
+        line-height: 2;
+    }
+
+    .link, .btn {
+        margin-bottom: 0;
+        
+        & + .link, & + .btn {
+            @include rem('margin-left', 30px);
+        }
+
+        & + p, & + ul, & + table, & + h4 {
+            @include rem('margin-top', 8px);
+        }
+    }
+
+    &--less-margin {
+        margin-bottom: 30px !important;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &content {
+        @include rem('margin-bottom', 100px);
+        
+        > .row {
+            
+            > * {
+                margin-bottom: 0;
+            }
+        }
+        
+        .link, .btn {
+
+            & + p, & + ul, & + table, & + h4 {
+                @include rem('margin-top', 14px);
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

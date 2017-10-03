@@ -1,0 +1,67 @@
+
+// -- Bootstrap overrides, any default variables for Bootstrap can be overwriten globally here.  --
+$border-radius-base:        0 !default;
+$border-radius-large:       0 !default;
+$border-radius-small:       0 !default;
+
+// $grid-float-breakpoint: 9999px;
+// $grid-float-breakpoint-max: $grid-float-breakpoint - 1px;
+
+// -- Colors --
+$color-black: #000000;
+$color-white: #ffffff;
+$color-light-gray: #f2f2f2;
+$search: #c9c9c9;
+$color-dark-gray: #9b9b9b;
+
+$color-red: #c6002a;
+
+$color-whatsapp: #62cf72;
+$color-facebook: #415993;
+$color-twitter: #49a0eb;
+$color-linkedin: #3076b0;
+$color-email: $color-black;
+
+$brand-primary: $color-red;
+$brand-secondary: #cceed8;
+
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
+$border-color: $color-light-gray;
+
+$btn-primary-bg: $brand-primary !default;
+$btn-primary-border: $btn-primary-bg !default;
+
+$FrutigerLTStd-Roman: 'FrutigerLTW01-55Roman', sans-serif;
+$FrutigerLTStd-LightCn: 'FrutigerLTW02-47LightCn', sans-serif;
+$FrutigerLTStd-Bold: 'Frutiger LT W01 65 Bold', sans-serif;
+$FrutigerLTStd-BlackCn: 'FrutigerLTW02-77BlackCn', sans-serif;
+$FrutigerLTStd-Italic: 'FrutigerLTW01-56Italic', sans-serif;
+
+// -- Typography --
+$font-family-sans-serif: "FrutigerLTW01-55Roman", sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-headers: "FrutigerLTW02-47LightCn", sans-serif;
+$font-family-navigation: "Frutiger LT W01 65 Bold", sans-serif;
+$font-family-default: $font-family-sans-serif;
+
+$text-color: $color-black !default;
+
+$link-color: $brand-primary !default;
+$link-color-hover: $brand-primary !default;
+
+$body-bg: $color-light-gray;
+$container-bg: $color-white;
+
+// -- Z-Index --
+$z-index-quick-nav: 1000;
+$z-index-navigation: 1040;
+$z-index-menu: 1080;
+
+// $screen-sm-min: 768px;
+// // We willen op tablet portrait nog mobiel tonen.
+// $screen-sm-min: 769px;

@@ -1,0 +1,81 @@
+
+body {
+
+    > .container-fluid {
+        background-color: $color-white;
+    }
+}
+
+/* Extra small devices (mobile, under 768px) */
+@media (max-width: $screen-xs-max) { 
+    body {
+
+        > .container-fluid {
+
+            > header {
+                @include rem('margin-left', -15px);
+                @include rem('margin-right', -15px);
+            }
+
+            > .container {
+                @include rem('margin-left', -15px);
+                @include rem('margin-right', -15px);
+                width: auto;
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+        > .container-fluid {
+            background-image: url('../images/background.png');
+            background-repeat: repeat-y;
+            background-position-x: center;
+
+            &.home {
+                background-color: transparent;
+                background: none;
+            }
+
+            > header {
+                @include rem('margin-left', -15px);
+                @include rem('margin-right', -15px);
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    body {
+        > .container-fluid {
+
+            > .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+    body {
+
+        > .container-fluid {
+            max-width: 1680px;
+
+            &.home {
+                max-width: initial;
+            }
+
+            > .container {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}

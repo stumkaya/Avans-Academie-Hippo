@@ -1,0 +1,91 @@
+
+&youtube {
+    position: relative;
+    @include rem('margin-bottom', 60px);
+    color: $color-white;
+
+    .chapeau {
+        display: block;
+        float: left;
+        position: relative;
+        background-color: $color-black;
+        color: $color-white;
+        @include font-size(1.4);
+        line-height: 1;
+        @include rem('padding', 10px 0 6px 15px);
+        margin: 0;
+        border: 0;
+
+        &:after {
+            content: '';
+            position: absolute;
+            height: 30px;
+            width: 30px;
+            top: 0;
+            right: -30px;
+            background: url('../images/skew-black.svg') no-repeat top left;
+        }
+    }
+
+    > .video-wrapper {
+        clear: both;
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+
+        > iframe {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    > div {
+
+        > header {
+            @include rem('margin-bottom', 6px);
+
+            h2 {
+                margin-bottom: 0;
+            }
+        }
+    } 
+
+    > .video-wrapper + div {
+        background-color: $color-red;
+        @include rem('padding', 20px 20px 30px);
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &youtube {
+        @include rem('margin-bottom', 50px);
+
+        > div {
+
+            > header {
+                @include rem('margin-bottom', 2px);
+
+                h2 {
+                    //font-family: $FrutigerLTStd-LightCn;
+                    @include font-size(2.4);
+                }
+            }
+        } 
+
+        > .video-wrapper + div {
+            @include rem('padding', 25px 20px);
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

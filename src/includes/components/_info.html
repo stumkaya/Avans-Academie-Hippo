@@ -1,0 +1,22 @@
+<div class="component-overview">
+    <a class="anchor" id="quisque-maximus-turpi" name="quisque-maximus-turpi" class="anchor" data-name="Quisque maximus"></a>
+    <header>
+        <span class="chapeau">Etiam ipsum orci</span>
+        <h2>Quisque maximus turpis</h2>
+    </header>
+    @@if (introduction !== '') {
+    <div class="row">
+        <div class="col-xs-12 col-sm-7">
+            <p>@@introduction</p>
+        </div>
+    </div>
+    }
+    <div class="row cards">
+        @@include('./_card.html', { "title": "Studiekosten", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+        @@include('./_card.html', { "title": "Aanmelden", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+        @@include('./_card.html', { "title": "Veelgestelde vragen", "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod.</p>", "image": "", "link": "#", "done": true })
+
+        @@include('./_card.html', { "title": "Locatie en faciliteiten", "text": "", "image": "/photos/landscape_6.jpg", "link": "#", "done": true })
+        @@include('./_card.html', { "title": "Studeren in 's-Hertogenbosch'", "text": "", "image": "/photos/landscape_3.jpg", "link": "#", "done": true })
+    </div>
+</div>

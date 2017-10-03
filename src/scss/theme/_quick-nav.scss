@@ -1,0 +1,394 @@
+
+body {
+
+    #black-link {
+        @extend .hidden-xs;
+        background-color: $color-black;
+        color: $color-white;
+        padding-right: 10px;
+        z-index: 20;
+        cursor: pointer;
+
+        &:after {
+            position: absolute;
+            top: 0;
+            right: -30px;
+            display: inline-block;
+            content: '';
+            width: 30px;
+            height: 60px;
+            background: url('../images/skew-black.svg') no-repeat top left;
+        }
+
+        &:hover {
+            text-decoration: underline;
+            border-bottom: $color-black 3px solid;
+        }
+    }
+
+    .quick-nav {
+        @include rem('margin', 15px -15px 30px -15px);
+
+        .navbar.navbar-default {
+            background-color: transparent;
+            border: 0;
+            border-top: solid $color-light-gray 1px;
+
+            .container {
+                padding: 0;
+
+                .row {
+                    margin: 0;
+
+                    .col-xs-12 {
+                        padding: 0;
+
+                        ul {
+                            margin: 0;
+
+                            > li {
+                                border-bottom: solid $color-light-gray 1px;
+
+                                &.active {
+                                    > a {
+                                        background-color: transparent;
+                                    }
+                                }
+
+                                > a {
+                                    @include font-size(1.4);
+                                    line-height: 2.29;
+                                    @include rem('padding', 4px 15px);
+                                    color: $color-black;
+
+                                    &:hover {
+                                        color: $color-red;
+                                    }
+                                }
+
+                                &:after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    background: url('../images/chevron-black.svg') no-repeat top left;
+                                    top: 0;
+                                    right: 0;
+                                    @include rem('margin', 14px 15px);
+                                    height: 12px;
+                                    width: 7px;
+                                }
+
+                                &:hover {
+                                    &:after {
+                                        background: url('../images/chevron-red.svg') no-repeat top left;
+                                    }
+                                }
+                            }
+                        }
+
+                        button.dropdown-toggle {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.static {
+            position: fixed;
+            z-index: $z-index-quick-nav;
+            top: 0;
+            width: 100%;
+            background-color: transaprent;
+            @include rem('margin', 0 -15px);
+
+            .navbar.navbar-default {
+                @include rem('margin', 15px 0 0 0);
+                border: 0;
+                min-height: auto;
+
+                .container {
+
+                    .row {
+
+                        .col-xs-12 {
+
+                            button.dropdown-toggle {
+                                display: block;
+                                position: relative;
+                                @include rem('margin', 0 auto);
+                                min-width: 300px;
+                                font-family: $FrutigerLTStd-Roman;
+                                text-transform: none;
+                                text-align: left;
+                                background-color: $color-light-gray;
+                                color: $color-black;
+
+                                &:after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    background: url('../images/chevron-black.svg') no-repeat top left;
+                                    transform: rotate(90deg);
+                                    top: 0;
+                                    right: 0;
+                                    margin: 14px 15px;
+                                    height: 12px;
+                                    width: 7px;
+                                }
+                            }
+
+                            .dropdown.open {
+
+                                button.dropdown-toggle:after {
+                                    transform: rotate(-90deg);
+                                }
+                            }
+
+                            ul {
+                                @include rem('margin', 0 auto);
+                                min-width: 300px;
+                                background-color: $color-light-gray;
+                                box-shadow: none;
+                                border: 0;
+
+                                li {
+                                    border-top: solid 1px $color-white;
+
+                                    a {
+                                        font-family: $FrutigerLTStd-Roman;
+                                    }
+
+                                    &:after {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body > .container-fluid+.container-fluid > *:first-child {
+        padding-top: 60px;
+    }
+
+    body {
+
+        > .container-fluid +.container-fluid {
+
+            > .quick-nav {
+                padding-top: 0;
+
+                .navbar.navbar-default {
+                    @include rem('margin-top', 20px);
+                }
+
+                &.fixed {
+
+                    .navbar.navbar-default {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+
+        .quick-nav {
+            position: relative;
+            background: transparent;
+            background-image: url('../images/background.png');
+            background-repeat: repeat-y;
+            background-position-x: center;
+            @include rem('margin', 0 -15px);
+            height: 0px;
+            z-index: $z-index-quick-nav;
+            top: 0;
+
+            .navbar.navbar-default {
+                width: 100%;
+                border: 0;
+                background-color: transparent;
+                background-image: url('../images/background.png');
+                background-repeat: repeat-y;
+                background-position-x: center;
+                margin-bottom: 0;
+
+                &:before {
+                    content: '';
+                    display:block;
+                    position:absolute;
+                    top: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 60px;
+                    background-color: $color-light-gray;
+                }
+
+                .container {
+
+                    .row {
+                        position: relative;
+                        background-color: $color-light-gray;
+                        height: 60px;
+
+                        &:before {
+                            left: -26px;
+                        }
+
+                        .col-xs-12 {
+
+                            ul {
+
+                                > li {
+                                    border: 0;
+                                    @include rem('margin', 0 15px);
+
+                                    &:first-child {
+                                        @include rem('margin', 0 15px 0 0);
+                                    }
+
+                                    &:after {
+                                        display: none;
+                                    }
+
+                                    &.active {
+                                        > a {
+                                            color: $color-black;
+                                            background-color: transparent;
+                                            border-bottom: solid 3px $color-red;
+                                        }
+                                    }
+
+                                    > a {
+                                        @include font-size(1.4);
+                                        line-height: 2.29;
+                                        @include rem('padding', 14px 0 11px);
+                                        border-bottom: solid 3px transparent;
+                                        color: $color-black;
+
+                                        &:hover {
+                                            color: $color-black;
+                                            border-bottom: solid 3px $color-red;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            & + * {
+                @include rem('padding-top', 160px);
+            }
+
+            &.fixed {
+                position: fixed;
+                width: 100%;
+                top: 0;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                background: transparent;
+
+                .navbar.navbar-default {
+                    margin: 0 auto;
+                    max-width: 1680px;
+                    background: transparent;
+
+                    &:after {
+                        content: '';
+                        position: relative;
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 1680px;
+                        height: 5px;
+                        background: transparent url('../images/quicknav-shadow.png') no-repeat  center top;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+
+        .quick-nav--black-link {
+
+            .navbar.navbar-default {
+
+                &:before {
+                    content: '';
+                    display:block;
+                    position:absolute;
+                    top: 0;
+                    left: 0;
+                    width: 20%;
+                    height: 60px;
+                    background-color: $color-black;
+                    z-index: 10;
+                }
+
+                .container {
+
+                    &:after {
+                        display: inline-block;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 60px;
+                        background-color: $color-light-gray;
+                    }
+
+                    .row {
+                        position: relative;
+                        background-color: $color-light-gray;
+                        height: 60px;
+                        z-index: 10;
+
+                        &:before {
+                            left: -26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    body {
+
+        .quick-nav {
+
+            .navbar.navbar-default {
+                width: auto;
+
+                .container {
+                    width: $container-lg;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .row {
+
+                        &:before {
+                            left: -54px;
+                        }
+
+                        > .col-xs-12 {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

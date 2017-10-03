@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+
+@@include('./includes/_cookie-box.html')
+
+@@include('./includes/_search-box.html')
+
+<div class="container-fluid">
+    <header>
+
+        @@include('./includes/_navigation.html')
+
+    </header>
+
+</div>
+<div class="container-fluid content">
+
+    <div class="header-row">
+        @@include('./includes/components/_header.html', {"title": "Nieuws"})
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-8">
+
+                <a class="news" href="#">
+                    <div class="news__image" style="background-image: url('/photos/pattern_3.jpg');"></div>
+                    <div class="news__body">
+                        <span class="news__type">Nieuws</span>
+                        <span class="news__date"> - 10 maart 2017</span>
+                        <span class="news__title">Lorem ipsum</span>
+                    </div>
+                </a>
+
+                <a class="news" href="#">
+                    <div class="news__image" style="background-image: url('/photos/pattern_4.jpg');"></div>
+                    <div class="news__body">
+                        <span class="news__type">Nieuws</span>
+                        <span class="news__date"> - 10 maart 2017</span>
+                        <span class="news__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis deserunt doloremque eius et omnis provident quae quis quod reiciendis.</span>
+                    </div>
+                </a>
+
+                <div class="news-page-buttons">
+
+                    <a href="#" class="btn btn-inactive">Vorige 10</a>
+
+                    <a href="#" class="btn btn-primary">Volgende 10</a>
+
+                </div>
+            </div>
+
+            <aside class="col-xs-12 col-sm-4">
+
+                @@include('./includes/components/_widget-red.html')
+
+                @@include('./includes/components/_widget-secondary.html')
+
+            </aside>
+        </div>
+    </div>
+</div>
+
+@@include('./includes/_footer.html')
+
+@@include('./includes/_scripts.html')
+</body>
+
+</html>

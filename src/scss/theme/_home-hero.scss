@@ -1,0 +1,234 @@
+
+body {
+
+    > .container-fluid {
+
+        > header.home-hero {
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-y: 0;
+            background-attachment: fixed;
+
+            .svg {
+
+                &.svg-logo {
+                    .c{fill:$color-white;}
+                    .e{stroke-width:1.5;stroke:$color-white;}
+                }
+            }
+
+            .navbar.navbar-default {
+                @include rem('margin-top', -30px);
+
+                &.menu-open {
+
+                    .svg.svg-logo {
+                        .b{ fill:$color-red; }
+                        .c{ fill:$color-black; }
+                        .e{ stroke-width:1.5;stroke:$color-black; }
+                    }
+                }
+            }
+
+            .component-hero {
+                @include rem('margin-top', -30px);
+
+                > .home-banner {
+                    display: none;
+                }
+
+                > .container {
+
+                    > .row {
+
+                        &.banner {
+                            //display: none;
+                        }
+
+                        &.text {
+
+                            > * {
+                                position: relative;
+
+                                &.scrolldown {
+                                    position: absolute;
+                                }
+
+                                header {
+                                    @include rem('margin-bottom', 35px);
+
+                                    p {
+                                        @include rem('margin-bottom', 30px);
+                                    }
+                                }
+
+                                .event-link {
+                                    display: block;
+                                    position:relative;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+
+        > .video-banner {
+            position: fixed;
+            display:block;
+            width: 100%;
+            top: 0;
+            left:0;
+            z-index:-20;
+
+            > .video {
+                position: absolute;
+                display:block;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        > .video-cover {
+            position: absolute;
+            z-index: -10;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+
+            > div {
+                background-color: $color-light-gray;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        > .container-fluid {
+
+            > header.home-hero {
+
+                .navbar.navbar-default,
+                .component-hero {
+                    @include rem('margin-top', -60px);
+
+                    &:before {
+                        content: '';
+                        display:block;
+                        position:absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        z-index: -10;
+                    }
+
+                    > .home-banner {
+                        position: fixed;
+                        display: block;
+                        z-index: -20;
+                        @include rem('margin', 0 -15px);
+                        top: 0;
+                        width: 100%;
+
+                        > .video {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+        
+    body {
+
+        > .container-fluid {
+
+            > header.home-hero {
+                position: relative;
+                background-size: cover;
+                background-position: center;
+
+                > .navbar.navbar-default {
+                    position: absolute;
+                    z-index: $z-index-navigation;
+                    width: $container-md;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin-top: 0;
+
+                    &.menu-open {
+                        position: initial;
+                        left: initial;
+                        transform: none;
+                    }                    
+                }
+
+                .component-hero {
+                    margin-top: 0;
+                    background-color: transparent;
+
+                    > .container {
+
+                        > .row {
+
+                            &.text {
+
+                                > * {
+
+                                    header {
+                                        top: 40%;
+                                        transform: translateY(-50%);
+
+                                        p {
+                                            @include rem('margin-bottom', 40px);
+                                        }
+                                    }
+
+                                    
+                                    > div, > .event-link {
+                                        position:absolute;
+                                        top: 60%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+        
+    body {
+
+        > .container-fluid {
+
+            > header.home-hero {
+
+                > .navbar.navbar-default {
+                    width: $container-lg;
+                }
+            }
+        }
+    }
+}

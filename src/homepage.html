@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Starting point for Avans Academie website">
+    <meta name="author" content="">
+
+    @@include('./includes/_favicon.html')
+
+    <title>Avans Academie Associate Degree</title>
+
+    @@include('./includes/_styles.html')
+</head>
+
+<body>
+    @@include('./includes/_cookie-box.html')
+    
+    @@include('./includes/_search-box.html')
+   
+    <div class="video-banner">
+        <div class="video" data-video="ZtuDYmxRwUU"></div>
+    </div>
+    <div class="video-cover"><div></div></div>
+
+    <div class="container-fluid home">
+        <header class="home-hero">
+
+            @@include('./includes/_navigation.html')
+
+            @@include('./includes/components/_home-hero.html', {"title": "Wat ga jij doen met een associate degree?", "subTitle": "Haal in 2 jaar een praktijkgericht hbo diploma"})
+
+        </header>
+    </div>
+
+    <div class="container-fluid content">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-6">
+                    @@include('./includes/components/_list.html')
+                </section>
+                <section class="col-md-6">
+                    @@include('./includes/components/_youtube.html')
+                </section>
+            </div>
+        </div>
+
+        @@include('./includes/components/_streamer.html')
+
+    </div>
+
+    @@include('./includes/_footer.html')
+
+    @@include('./includes/_scripts.html')
+</body>
+
+</html>

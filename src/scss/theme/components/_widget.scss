@@ -1,0 +1,206 @@
+
+&widget {
+    @include rem('margin-bottom', 30px);
+
+    > header {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        @include clearfix;
+
+        h3 {
+            float: left;
+            position: relative;
+            background-color: $color-black;
+            color: $color-white;
+            @include font-size(1.4);
+            @include rem('padding', 10px 0 6px 15px);
+            margin: 0;
+            border: 0;
+
+            &:after {
+                content: '';
+                position: absolute;
+                height: 30px;
+                width: 30px;
+                top: 0;
+                right: -30px;
+                background: url('../images/skew-black.svg') no-repeat top left;
+            }
+        }
+    }
+
+    > div {
+        @include rem('padding', 25px 20px);
+
+        p {
+            @include rem('margin-bottom', 15px);
+        }
+    }
+
+    &.widget-red {
+
+        > div {
+            background-color: $color-red;
+
+            p {
+                font-family: $FrutigerLTStd-BlackCn;
+                @include font-size(2.4);
+                text-transform: uppercase;
+                line-height: 1;
+
+                strong {
+                    font-family: $FrutigerLTStd-BlackCn;
+                    @include font-size(3.2);
+                    color: $color-white;
+                }
+            }
+            
+
+            .link-list {
+
+                li:before {
+                    background: url('../images/chevron-white.svg') no-repeat top left;
+                }
+            }
+
+            a {
+                color: $color-white;
+            }
+        }
+    }
+
+    &.widget-gray {
+
+        > div {
+            background-color: $color-light-gray;
+            @include rem('padding', 20px 15px 40px);
+
+            p {
+                line-height: 2.29;
+
+                & + .link-list {
+                    margin-top: -20px;
+                }
+            }
+
+            .link-list {
+
+                li:before {
+                    background: url('../images/chevron-black.svg') no-repeat top left;
+                }
+
+                a {
+                    color: $color-black;
+                }                
+            }
+        }
+    }
+
+    &.widget-white {
+
+        > div {
+            background-color: $color-white;
+            border: solid 2px $color-red;
+            @include rem('padding',  25px 20px);
+
+            p {
+                font-family: $FrutigerLTStd-LightCn;
+                @include font-size(2.0);
+                line-height: 1;
+            }
+
+            .link-list {
+
+                li:before {
+                    background: url('../images/chevron-black.svg') no-repeat top left;
+                }
+
+                a {
+                    color: $color-black;
+                }                
+            }
+        }
+    }
+
+    &.widget-secondary {
+
+        > div {
+            background-color: $color-light-gray;
+
+            p {
+                font-family: $FrutigerLTStd-BlackCn;
+                @include font-size(2.4);
+                text-transform: uppercase;
+                line-height: 1;
+                color: $color-black;
+
+                strong {
+                    font-family: $FrutigerLTStd-BlackCn;
+                    color: $color-red;
+                }
+            }
+
+            .link-list {
+
+                li:before {
+                    background: url('../images/chevron-black.svg') no-repeat top left;
+                }
+            }
+
+            a {
+                color: $color-black;
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+    &widget {
+
+        > div {
+            @include rem('padding', 40px 30px);
+
+            p {
+                @include rem('margin-bottom', 20px);
+            }
+        }
+
+        &.widget-red {
+            > div {
+
+                p.strong {
+                    @include font-size(4.8);
+                }
+            }
+
+        }
+
+        &.widget-gray {
+
+            > div {
+                @include rem('padding', 40px 25px);
+            }
+        }
+
+        &.widget-white {
+            > div {
+                @include rem('padding', 30px);
+
+                p {
+                    @include font-size(2.4);
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

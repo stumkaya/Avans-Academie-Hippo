@@ -1,0 +1,99 @@
+
+&hero {
+
+    &.event {
+        position: relative;
+
+        > .container {
+
+            .row {
+                
+                &.banner {
+                    height: 250px;
+
+                    > * {
+
+                        &:first-child:before,
+                        &:last-child:before,
+                        p {
+                            display: none;
+                            @include font-size(1.4);
+                        }
+                    }
+                }
+
+                &.text {
+
+                    > * {
+                        @include rem('padding-top', 20px);
+                        @include rem('padding-bottom', 20px);
+
+                        > div {
+                            background: url('../images/location-white.svg') no-repeat top left;
+
+                            p {
+                                @include rem('margin-left', 50px);
+                                @include font-size(1.4);
+                                line-height: 2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &hero {
+
+        &.event {
+            background-size: cover;
+
+            >.container {
+
+                .row {
+
+                    &.banner {
+                        height: 400px;
+
+                        > * {
+
+                            &:first-child:before,
+                            &:last-child:before,
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    &.text {
+                        position: absolute;
+                        top: 0;
+                        height: 400px;
+
+                        >* {
+                            position: relative;
+                            height: 400px;
+
+                            header {
+                                position:absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

@@ -1,0 +1,271 @@
+
+&hero {
+    background-color: $color-black;
+
+    > .container {
+        height: 100%;
+        position: relative;
+        padding: 0;
+
+        > .row {
+            margin: 0;
+
+            &.banner {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                > * {
+                    height: 100%;
+                    color: $color-white;
+
+                    &:first-child() {
+                        position: relative;
+
+                        &:before {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            height: 100%;
+                            width: 600%;
+                            right: 0;
+                            @include opacity('background-color', $color-black, 50);
+                        }
+                    }
+
+                    &:last-child() {
+                        padding: 0;
+
+                        &:before {
+                            content: '';
+                            display: block;
+                            position: relative;
+                            height: 100%;
+                            background: url('../images/skew.svg') no-repeat top left;
+                            background-size: contain;
+                        }
+                    }
+
+                    > p {
+                        position: absolute;
+                        font-family: $FrutigerLTStd-LightCn;
+                        @include font-size(2.0);
+                        line-height: 1.33;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            &.text {
+
+                > * {
+                    color: $color-white;
+                    @include rem('padding-top', 30px);
+
+                    header {
+
+                        p {
+                            @include font-size(1.2);
+                            line-height: 2.67;
+                        }
+                    }
+
+                    > div, > .event-link {
+                        @include rem('margin-bottom', 30px);
+
+                        .link-list {
+
+                            a {
+                                color: $color-white;
+                            }
+                        }
+                    }
+                }
+
+                .scrolldown {
+                    display: none;
+                    background: url('../images/scrolldown.gif') no-repeat;
+                    background-size: cover;
+                    height: 36px;
+                    width: 21px;
+                    position: absolute;
+                    bottom: 90px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &hero {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        @include rem('padding', 0 15px);
+
+        > .container {
+            width: $container-sm;
+
+            > .row {
+
+                &.banner {
+
+                    > * {
+
+                        > p {
+                            @include font-size(2.4);
+                        }
+                    }
+                }
+
+                &.text {
+
+                    > * {
+                        @include rem('padding-top', 22px);
+
+                        header {
+
+                            p {
+                                @include font-size(1.4);
+                                line-height: 1.5;
+                            }
+                        }
+
+                        > div, > .event-link {
+                            @include rem('margin-bottom', 10px);
+                            @include clearfix();
+
+                            .btn {
+                                float: left;
+                                @include rem('margin', 0 30px 0 0);
+                            }
+
+                            .link-list {
+                                float: left;
+
+                                > li {
+                                    float: left;
+                                    @include rem('margin-right', 30px);
+                                    @include rem('padding', 9px 0);
+
+                                    &:last-child() {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    &hero {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+
+        > .container {
+            position: relative;
+            width: $container-md;
+
+            > .row {
+                margin-left: -15px;
+                margin-right: -15px;
+
+                &.text {
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+
+                    > * {
+                        height: 100%;
+
+                        header {
+                            position: absolute;
+                            top: 60px;
+
+                            p {
+                                @include font-size(1.4);
+                                line-height: 1.5;
+                            }
+                        }
+
+                        > div, > .event-link {
+                            position:absolute;
+                            top: 66%;
+                            @include rem('margin-bottom', 30px);
+                            @include clearfix();
+
+                            .btn {
+                                float: none;
+                                @include rem('margin', 0 0 15px 0);
+                            }
+
+                            .link-list {
+                                float: none;
+
+                                > li {
+                                    float: none;
+                                    padding: 0;
+                                }
+                            }
+                        }
+                    }
+                    
+                    .scrolldown {
+                        display: block;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    &hero {
+        > .container {
+            width: $container-lg;
+
+            > .row {
+
+                &.banner {
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+
+                &.text {
+
+                    > * {
+
+                        header {
+                            position: absolute;
+                            top: 33%;
+                            transform: translateY(-50%);
+                        }
+
+                        > div, > .event-link {
+                            position:absolute;
+                            top: 66%;
+                            bottom: initial;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

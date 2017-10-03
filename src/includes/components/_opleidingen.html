@@ -1,0 +1,19 @@
+<div class="component-overview">
+    @@if (introduction !== '') {
+    <div class="row">
+        <div class="col-xs-12 col-sm-9 col-md-7">
+            @@introduction
+        </div>
+    </div>
+    }
+    <div class="row cards">
+
+        @@include('./_study.html', {"title": "Finance", "subtitle": "Ad Accountancy"})
+        @@include('./_study.html', {"title": "Business", "subtitle": "Ad Bedrijfskunde"})
+        @@include('./_study.html', {"title": "Communicatie", "subtitle": "Ad Communicatie"})
+        @@include('./_study.html', {"title": "Human Resource Management", "subtitle": "Ad HRM"})
+        @@include('./_study.html', {"title": "ICT", "subtitle": "Ad Informatica"})
+        @@include('./_study.html', {"title": "Marketing", "subtitle": "Ad Marketing Management"})
+        @@include('./_study.html', {"title": "Ondernemen", "subtitle": "Ad Small Business en Retail Management"})
+    </div>
+</div>

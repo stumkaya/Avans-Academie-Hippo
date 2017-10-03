@@ -1,0 +1,49 @@
+
+&related-links {
+  @include rem('margin-bottom', 30px);
+
+  a {
+    position: relative;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 15px 30px;
+
+    &:before {
+      position: absolute;
+      top: 7px;
+      left: -15px;
+
+      content: '';
+      display: inline-block;
+
+      width: 8px;
+      height: 12px;
+      background-size: 8px 12px;
+      background: url("/images/chevron-black.svg") no-repeat center;
+    }
+
+    &:hover {
+      color: $color-red;
+      text-decoration: underline;
+
+      &:before {
+        background: url("/images/chevron-red.svg") no-repeat center;
+      }
+    }
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

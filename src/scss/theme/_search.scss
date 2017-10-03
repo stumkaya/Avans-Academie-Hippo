@@ -1,0 +1,206 @@
+
+body {
+    
+    .search-box {
+        @include container-fixed;
+        overflow: hidden;
+        transition: height .3s;
+        background-color: lightgray;
+        height: 0;
+
+        > div {
+            
+            form.navbar-form {
+                width: 100%;
+                margin: 0;
+                @include rem('padding', 30px 0);
+                @include clearfix();
+
+                > * {
+                    display: block;
+                    @include rem('margin-right', 105px);
+
+                    input.form-control {
+                        margin: 0;
+                        height: 60px;
+                        width: 100%;
+                        border: 0;
+                        @include rem('padding', 14px 20px);
+                        color: $color-black;
+                        outline: none;
+                        box-shadow: none;
+
+                        &::-webkit-input-placeholder,
+                        &:-moz-placeholder,
+                        &::-moz-placeholder,
+                        &:-ms-input-placeholder { /* WebKit, Blink, Edge */
+                            color: lightgray;
+                        }
+                    }
+
+                    .input-group-btn {
+                        position: absolute;
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        right: 0;
+
+                        button.btn {
+                            @include rem('margin', 0);
+                            @include rem('padding', 0px 15px);
+                            height: 60px;
+                            width: 60px;
+                            border: 0;
+                            background-color: $color-red;
+                            color: $color-white;
+                            line-height: 1;
+                            text-transform: uppercase;
+
+                            &:hover {
+                                background-color: $color-black;
+                            }
+
+                            span {
+                                display: none;
+                            }
+                            
+                            .svg {
+                                width: 40px;
+                                height: 40px;
+                                margin-top: 10px;
+                            }
+
+                        }
+
+                        a.btn {
+                            margin: 0;
+                            @include rem('padding', 0px 0px 0px 15px);
+                            border: 0;
+                            height: 60px;
+
+                            .svg {
+                                width: 30px;
+                                height: 30px;
+                                margin-top: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.show {
+            height: 120px;
+        }
+    }
+
+    .search-result {
+        margin-bottom: 40px;
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        &__line {
+            height: 1px;
+            width: 100%;
+            background-color: #f2f2f2;
+            @include rem('margin-bottom',  25px);
+        }
+
+        &__url {
+            font-size: 11px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 300;
+            text-decoration: underline;
+            @include rem('margin-bottom',  9px);
+            color: $color-black;
+        }
+
+        p {
+            margin-bottom: 0;
+            color: $color-black;
+        }
+
+        .highlight {
+            background-color: rgba(197, 0, 42, 0.35);
+            @include rem('padding', 8px 3px 5px);
+        }
+    }
+
+    .search-page-buttons {
+        a {
+            @include rem('margin-bottom',  100px);
+        }
+        a:first-child {
+            @include rem('margin-right',  10px);
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+
+        .search-box {
+
+            > div {
+                
+                form.navbar-form {
+                    
+                    > * {
+                        display: block;
+                        float: right;
+                        margin: 0;
+
+                        input.form-control {
+                            width: 360px;
+                        }
+
+                        .input-group-btn {
+                            position: relative;
+
+                            button.btn {
+                                @include rem('margin', 0 47px 0 0);
+                                @include rem('padding', 6px 30px);
+                                width: auto;
+
+                                span {
+                                    display: block;
+                                }
+
+                                .svg {
+                                    display: none;
+                                }
+                            }
+
+                            a.btn {
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

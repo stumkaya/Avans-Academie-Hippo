@@ -1,0 +1,175 @@
+
+body {
+
+    footer {
+        background-color: $color-light-gray;
+        color: $color-dark-gray;
+        @include clearfix;
+
+        a {
+            color: $color-dark-gray;
+        }
+        
+        > *:last-child() {
+            @include rem('margin-bottom', 104px);
+        }
+
+        .container .breadcrumb {
+            @include font-size(1.2);
+            line-height: 2.67;
+            @include rem('padding', 14px 0 0 0);
+            @include rem('margin', 0 0 14px 0);
+            background-color: transparent;
+
+            > li {
+                color: $color-dark-gray;
+
+                &+li:before {
+                    content: "/";
+                    padding: 0 5px;
+                    color: $color-dark-gray;
+                }
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+
+            > .active {
+                color: $color-dark-gray;
+            }
+        }
+
+        > nav.container-fluid {
+            border-top: solid 1px $color-white;
+            border-bottom: solid 1px $color-white;
+            padding: 0;
+
+            > .container > .row > * {
+                @include font-size(1.4);
+                line-height: 2.29;
+
+                &:first-child() {
+                    @include rem('padding-top', 30px);
+                }
+
+                ul {
+                    list-style: none;
+
+                    > li {
+                        font-family: $FrutigerLTStd-Roman;
+
+                        > ul {
+                            @include rem('padding-left', 30px);
+                        }
+                    }
+                }
+
+                > ul {
+                    @include rem('margin-bottom', 30px);
+
+                    > li {
+                        font-family: $FrutigerLTStd-Bold;
+                    }
+                }
+
+                > p {
+                    @include rem('margin-bottom', 30px);
+
+                    > a {
+                        text-decoration: underline;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                    & + .component-social {
+                        @include rem('margin-top', -30px);
+                        margin-bottom: 0;
+                    }
+                }
+
+                svg {
+                    display: block;
+                    @include rem('margin-bottom', 30px);
+                }
+            }
+        }
+
+        .container .disclaimer {
+            @include font-size(1.4);
+            line-height: 2.29;
+            list-style: none;
+            @include rem('padding', 14px 0 0 0);
+            @include rem('margin', 0 0 14px 0);
+            @include clearfix;
+
+            > li {
+                float: left;
+
+                &:after {
+                    content: "/";
+                    @include rem('padding', 0 5px);
+                    color: $color-dark-gray;
+                }
+
+                &:last-child:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    body {
+
+        footer {
+            @include rem('padding', 0 15px);
+
+            > *:last-child() {
+                @include rem('margin-bottom', 152px);
+            }
+
+            > nav {
+
+                > .container > .row > * {
+                    @include rem('padding-top', 30px);
+                }
+            }
+        }
+    }    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    body {
+
+        footer {
+
+            > .container {
+                padding: 0;
+            }
+
+            > nav.container-fluid {
+                
+                > .container {
+                    padding: 0;
+                }
+            }
+        }
+    }  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+    body {
+        
+        footer {
+
+        }
+    }
+}

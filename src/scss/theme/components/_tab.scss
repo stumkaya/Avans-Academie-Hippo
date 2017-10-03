@@ -1,0 +1,193 @@
+
+&tab {
+    @include rem('margin-bottom', 60px);
+
+    .panel-group {
+        @include rem('margin-left', -15px);
+        @include rem('margin-right', -15px);
+        border: 0;
+
+        .panel {
+            border: 0;
+            box-shadow: none;
+
+            & + .panel {
+                margin-top: -1px;
+            }
+
+            .panel-heading {
+                background-color: transparent;
+                border-top: solid 1px $color-light-gray;
+                border-bottom: solid 1px $color-light-gray;
+                padding: 0;
+
+                h4 {
+                    font-family: $FrutigerLTStd-Bold;
+                    position: relative;
+
+                    a {
+                        display: inline-block;
+                        @include font-size(1.4);
+                        line-height: 2.29;
+                        @include rem('padding', 4px 15px);
+                        width: 100%;
+
+                        &:active, &:focus {
+                            color: $color-black;
+                            text-decoration: none;
+                        }
+                    }
+
+                    &:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        background: url('../images/chevron-black.svg') no-repeat top left;
+                        transform: rotate(90deg);
+                        top: 0;
+                        right: 0;
+                        margin: 14px 15px;
+                        height: 12px;
+                        width: 7px;
+                    }
+
+                    &.open {
+
+                        &:after {
+                            transform: rotate(-90deg);
+                        }
+                    }
+                }
+            }
+
+            .panel-collapse {
+
+                .panel-body {
+                    border: 0;
+                    box-shadow: none;
+
+                    .component-content {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &tab {
+        @include rem('margin-bottom', 100px);
+
+        .panel-group {
+            position: relative;
+            margin: 0;
+
+            .panel {
+                border: 0;
+                box-shadow: none;
+
+                & + .panel {
+                    margin: 0;
+                }
+
+                .panel-heading {
+                    position: absolute;
+                    float: left;
+                    top: 0;
+                    width: calc((100% / 12) * 2);
+                    padding: 0;
+                    background-color: transparent;
+                    border: 0;
+
+                    h4 {
+                        @include font-size(1.4);
+                        background-color: $color-light-gray;
+
+                        a {
+                            display: inline-block;
+                            line-height: 2.29;
+                            @include rem('padding', 14px 15px);
+                            width: 100%;
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                height: 100%;
+                                width: 30px;
+                                top: 0;
+                                right: -30px;
+                                background: url('../images/skew-light-gray.svg') no-repeat top left;
+                            }
+                        }
+
+                        &:after {
+                            display: none;
+                        }
+
+                        &.open {
+                            background-color: $color-black;
+
+                            a {
+                                color: $color-white;
+                                text-decoration: none;
+
+                                &:after {
+                                    background: url('../images/skew-black.svg') no-repeat top left;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover, &.active {
+
+                        h4 {
+                            background-color: $color-black;
+
+                            a {
+                                color: $color-white;
+                                text-decoration: none;
+
+                                &:after {
+                                    background: url('../images/skew-black.svg') no-repeat top left;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .panel-collapse {
+                   margin-left: 25%;
+                    border: 0;
+
+                    .panel-body {
+                        border: 0;
+                        padding: 0;
+
+                        .component-content {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                @for $i from 2 through 20 {
+                    &:nth-child(#{$i}) {
+                        .panel-heading {
+                            top: (($i - 1) * 70px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

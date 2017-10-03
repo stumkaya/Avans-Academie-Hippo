@@ -1,0 +1,38 @@
+
+@@if (done === true && image === '') {
+<div class="col-sm-6 col-md-4">
+    <a href="@@link" class="card">
+        <header>
+            <h3>@@title</h3>
+        </header>
+        <div>
+            @@text
+            <span>Lees verder</span>
+        </div>
+    </a>
+</div>
+}
+@@if (done === false) {
+<div class="col-sm-6 col-md-4">
+    <div class="card">
+        <header>
+            <h3>@@title</h3>
+        </header>
+        <div>
+            @@text
+        </div>
+    </div>
+</div>
+}
+@@if (done === true && image !== '') {
+<div class="col-sm-12 col-md-6">
+    <a href="@@link" class="image-card">
+        <div>
+            <img src="@@image" alt="@@title" />
+        </div>
+        <header>
+            <h3>@@title</h3>
+        </header>
+    </a>
+</div>
+}

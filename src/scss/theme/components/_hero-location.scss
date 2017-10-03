@@ -1,0 +1,84 @@
+
+&hero {
+
+    &.location {
+        position: relative;
+
+        #googlemap {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 250px;
+        }
+
+        > .container {
+
+            .banner {
+                height: 250px;
+
+                > * {
+
+                    &:first-child:before,
+                    &:last-child:before,
+                    p {
+                        display: none;
+                        @include font-size(1.4);
+                    }
+                }
+            }
+
+            .text {
+
+                > * {
+
+                    > div {
+                        background: url('../images/location-white.svg') no-repeat top left;
+
+                        p {
+                            @include rem('margin-left', 50px);
+                            @include font-size(1.4);
+                            line-height: 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &hero {
+        &.location {
+
+            #googlemap {
+                @include rem('margin', 0 -15px);
+                height: 400px;
+            }
+
+            >.container {
+
+                .banner {
+                    height: 400px;
+
+                    > * {
+
+                        &:first-child:before,
+                        &:last-child:before,
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

@@ -1,0 +1,132 @@
+
+.svg {
+    .a{fill:none;stroke-width:1;stroke:none;}
+
+    &.svg-logo {
+        .b{ fill:$color-red; }
+        .c{ fill:$color-black; }
+        .e{ stroke-width:1.5;stroke:$color-black; }
+    }
+
+    &.svg-hamburger {
+        .b{ fill:$color-black; }
+
+        &:hover {
+            .b{ fill:$color-red; }
+        }
+    }
+
+    &.svg-search {
+        .b{ fill:$color-black; }
+
+        &:hover {
+            .b{ fill:$color-red; }
+        }
+    }
+
+    &.svg-close {
+        .b{fill:$color-black;}
+
+        &:hover {
+            .b{fill:$color-red;}
+        }
+    }
+
+    &.svg-open-avond {
+        .b{
+            fill: $color-white;
+        }
+        .c{
+            fill:$color-black;
+        }
+    }
+}
+
+.white {
+
+    .svg {
+
+        &.svg-logo {
+            .b{fill:$color-red;}
+            .c{fill:$color-white;}
+            .e{stroke-width:1.5;stroke:$color-white;}
+        }
+
+        &.svg-hamburger {
+            .b{fill:$color-white;}
+
+            &:hover {
+                .b{fill:$color-black;}
+            }
+        }
+
+        &.svg-search {
+            .b{fill:$color-white;}
+
+            &:hover {
+                .b{fill:$color-black;}
+            }
+        }
+
+        &.svg-close {
+            .b{fill:$color-white;}
+
+            &:hover {
+                .b{fill:$color-black;}
+            }
+        }
+    }
+}
+
+.social {
+
+    &.whatsapp, &.facebook, &.twitter, &.linkedin, &.email {
+        .a {
+            fill: none;
+        }
+        .b {
+            fill: $color-white;
+        }
+    }
+}
+
+.social-round {
+
+    &.instagram, &.facebook, &.twitter, &.linkedin, &.youtube {
+
+        .a {
+            fill: none;
+        }
+
+        .b {
+            fill: $color-white;
+        }
+
+        &:hover {
+            
+            .b {
+                fill: $color-dark-gray;
+            }
+        }
+    }
+}
+
+&.gray {
+
+    .social-round {
+
+        &.instagram, &.facebook, &.twitter, &.linkedin, &.youtube {
+
+            .b {
+                fill: $color-dark-gray;
+            }
+
+            &:hover {
+
+                .b {
+                    fill: $color-red;
+                }                
+            }
+        }
+    }
+}

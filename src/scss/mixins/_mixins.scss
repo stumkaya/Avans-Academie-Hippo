@@ -1,0 +1,83 @@
+
+
+/* -- REM --
+Converts all units to rem with px fallback.
+
+Input:
+
+    element {
+        @include rem('font-size', 14px);
+        @include rem('margin', 20px 10px);
+        @include rem('padding', 10px 0 0 10px);
+    }
+
+Output:
+
+    element {
+        font-size: 14px;
+        font-size: 1.4em;
+        margin: 20px 10px;
+        margin: 2em 1em;
+        padding: 10px 0 0 10px;
+        padding: 1em 0 0 1em;
+    }
+ -- */
+@mixin rem($attr, $px-values) {
+    $baseline-rem: 10px / 1rem * 1;
+    #{$attr}: $px-values;
+
+    $rem-values: ();
+
+    @each $value in $px-values {
+        @if $value == 0 or type-of( $value ) != "number" {
+            $rem-values: append($rem-values, $value);
+        } @else {
+            $rem-values: append($rem-values, $value / $baseline-rem);
+        }
+    }
+
+    #{$attr}: $rem-values;
+}
+
+/* Opacity should be on a 100 point scale (0-100 instead of 0.0-1.0)
+ This should be used to supplement a normal border definition as it
+ only deals with the 'border-color' property.*/
+@mixin opacity($attr, $color, $opacity) {
+    $opacity: $opacity / 100;
+
+    #{$attr}: $color;
+    #{$attr}: rgba($color, $opacity);
+}
+
+/* sample: @include font-size(2.5) */
+@mixin font-size($size) {
+    $baseline-rem: 10px / 1rem * 1;
+    $px-size: 10px*$size;
+    font-size: $px-size;
+    font-size: $px-size / $baseline-rem
+}
+
+@mixin skewie($height, $color, $side) {
+
+    &:before {
+        content: '';
+        position: absolute;
+        float: left;
+        height: $height;
+        width: $height;
+        top: 0;
+        @if $side == "right" {
+            right: skew-offset($height);
+        } @else {
+            left: skew-offset($height);
+        }
+        -ms-transform: skewX(-11deg);
+        -webkit-transform: skewX(-11deg);
+        transform: skewX(-11deg);
+        background-color: $color;
+    }
+}
+
+@function skew-offset($height){
+    @return ceil($height * 0.1944 / 2) * -1
+}

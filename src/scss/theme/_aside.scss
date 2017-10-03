@@ -1,0 +1,36 @@
+
+// This file contains style variations for components place in an 'aside'.
+
+aside {
+
+    .component-content {
+        @include rem('margin-bottom', 30px);
+
+        table {
+
+            tr {
+
+                td {
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+    }
+
+    // [class^=component-] {
+    
+    //     > header {
+    //         @include rem('margin-bottom',  20px);
+
+    //         h2 {
+    //             @include font-size(2.4);
+    //         }
+
+    //         span.chapeau {
+    //             color: $color-red;
+    //             @include font-size(1);
+    //         }
+    //     }
+    // }
+}

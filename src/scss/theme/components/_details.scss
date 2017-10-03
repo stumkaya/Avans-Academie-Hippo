@@ -1,0 +1,128 @@
+
+&details {
+
+    .niveau-container {
+        position: relative;
+        @include rem('padding',  20px);
+        border: solid 2px $color-light-gray;
+        @include rem('margin-bottom', 70px);
+
+        &.ad {
+            border: solid 2px $color-red;            
+        }
+
+        h3 {
+            font-family: $FrutigerLTStd-BlackCn;
+            @include rem('margin-top', 6px);
+            @include rem('margin-bottom', 5px);
+        }
+
+        .type {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: $color-red;
+            color: $color-white;
+            @include rem('margin-top', -1px);
+            @include rem('margin-right', -1px);
+            font-family: $FrutigerLTStd-BlackCn;
+            @include font-size(2.0);
+            text-transform: uppercase;
+            @include rem('padding-left', 10px);
+            @include rem('padding-right', 10px);
+        }
+
+        .duur {
+            float: right;
+            color: $color-red;
+        }
+
+        p.kenmerk {
+            @include rem('padding-top', 10px);
+            @include rem('padding-bottom', 10px);
+            margin-bottom: 0;
+            @include font-size(1.4);
+            border-top: solid 1px $color-dark-gray;
+        }
+    }
+
+    .pager-container {
+        position: relative;
+        @include clearfix();
+        @include rem('margin-bottom', 30px);
+
+        .pager-left {
+            position:absolute;
+            top: 0;
+            left: 10px;
+        }
+
+        .pager-right {
+            position: absolute;
+            top: 0;
+            right: 10px;
+        }
+    }
+
+    .details + .hidden-lg {
+        margin-top: -30px;
+    }
+
+    ul.pager-state {
+        list-style-type: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+    }
+    ul.pager-state li {
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        background-image: url('../images/sphere-inactive.png');
+        background-repeat: no-repeat;
+        background-size: 10px 10px;
+    }
+    ul.pager-state li.active {
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        background-image: url('../images/sphere-active.png');
+        background-repeat: no-repeat;
+        background-size: 10px 10px;
+    }
+    .pager-left a {
+        background-image: url('../images/arrowleft.png');
+        background-repeat: no-repeat;
+        background-size: 6px 12px;
+        background-position: left;
+        padding-left: 20px;
+        color: $color-black;
+    }
+    .pager-right a {
+        background-image: url('../images/arrowright.png');
+        background-repeat: no-repeat;
+        background-size: 6px 12px;
+        padding-right: 20px;
+        background-position: right;
+        color: $color-black;
+    }
+    .pager-left a:hover .pager-right a:hover {
+        color: $color-red;
+        text-decoration: underline;
+    }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    &details {
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

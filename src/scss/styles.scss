@@ -1,0 +1,49 @@
+@import "theme/variables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "generic/reset";
+@import "generic/base";
+@import "mixins/mixins";
+
+@import "theme/elements";
+@import "theme/general";
+@import "theme/navigation";
+@import "theme/home-hero";
+@import "theme/quick-nav";
+@import "theme/cookie";
+@import "theme/search";
+@import "theme/footer";
+
+@import "theme/components";
+@import "theme/aside";
+@import "theme/svg";
+@import "vendor/owl/owl.carousel";
+@import "vendor/owl/owl.theme.default";
+
+.news-item__header {
+  @extend .header-row;
+  padding-bottom: 20px;
+}
+
+.news-item__type {
+  font-size: 14px;
+  color: $color-red;
+}
+
+.news-item__date {
+  font-size: 14px;
+  color: $color-dark-gray;
+}
+
+.news-item img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.news-item__content {
+  @include make-xs-column(12);
+  @include make-sm-column(7);
+  margin-bottom: 40px;
+}
+
+

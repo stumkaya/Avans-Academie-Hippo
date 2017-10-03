@@ -1,0 +1,52 @@
+<div class="component-tab">
+    <a class="anchor" id="proin-sodales-pulvinar" name="proin-sodales-pulvinar" class="anchor" data-name="Proin sodales"></a>
+    <header>
+        <span class="chapeau">Nam fermentum</span>
+        <h2>Proin sodales pulvinar</h2>
+    </header>
+
+    <div class="panel-group" id="tc" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="th1">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#tc" href="#c1" aria-expanded="true" aria-controls="c1">
+                        Jaar 1
+                    </a>
+                </h4>
+            </div>
+            <div id="c1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="th1">
+                <div class="panel-body">
+                    @@include('./_content-tab.html')
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="th2">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#tc" href="#c2" aria-expanded="true" aria-controls="c2">
+                        Jaar 2
+                    </a>
+                </h4>
+            </div>
+            <div id="c2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="th2">
+                <div class="panel-body">
+                    @@include('./_content-tab2.html')
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="th3">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#tc" href="#c3" aria-expanded="true" aria-controls="c3">
+                        Opleiding in cijfers en meer
+                    </a>
+                </h4>
+            </div>
+            <div id="c3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="th3">
+                <div class="panel-body">
+                    @@include('./_content-tab.html')
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

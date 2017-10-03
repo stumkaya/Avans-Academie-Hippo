@@ -1,0 +1,61 @@
+[class^=component-] {
+    
+    > header {
+        @include rem('margin-bottom',  30px);
+
+        span.chapeau {
+            color: $color-red;
+            @include font-size(1.2);
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+    [class^=component-] {
+
+        > header {
+
+            span.chapeau {
+                @include font-size(1.4);
+            }
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    [class^=component-] {        
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+    [class^=component-] {        
+    }
+}
+
+body {
+
+    .component- {
+        @import "components/content";
+        @import "components/details";
+        @import "components/facilities";
+        @import "components/header";
+        @import "components/hero";
+        @import "components/hero-event";
+        @import "components/hero-location";
+        @import "components/list";
+        @import "components/overview";
+        @import "components/slider";
+        @import "components/social";
+        @import "components/tab";
+        @import "components/widget";
+        @import "components/youtube";
+        @import "components/related-links";
+    }
+}
+
+@import "components/streamer";
+@import "components/event";
+@import "components/news";
