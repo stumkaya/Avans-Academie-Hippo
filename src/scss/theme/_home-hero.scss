@@ -105,6 +105,7 @@ body {
             top: 0;
             left: 0;
             overflow: hidden;
+            -webkit-transform: translate3d(0,0,0);
 
             > div {
                 background-color: $color-light-gray;
