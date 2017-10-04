@@ -3,6 +3,7 @@ body {
 
     #black-link {
         @extend .hidden-xs;
+        @extend .hidden-sm;
         background-color: $color-black;
         color: $color-white;
         padding-right: 10px;
@@ -318,19 +319,7 @@ body {
         .quick-nav--black-link {
 
             .navbar.navbar-default {
-
-                &:before {
-                    content: '';
-                    display:block;
-                    position:absolute;
-                    top: 0;
-                    left: 0;
-                    width: 20%;
-                    height: 60px;
-                    background-color: $color-black;
-                    z-index: 10;
-                }
-
+                
                 .container {
 
                     &:after {
@@ -361,6 +350,23 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+    body {
+        .quick-nav--black-link {
+            .navbar.navbar-default {
+                &:before {
+                    content: '';
+                    display:block;
+                    position:absolute;
+                    top: 0;
+                    left: 0;
+                    width: 20%;
+                    height: 60px;
+                    background-color: $color-black;
+                    z-index: 10;
+                }
+            }
+        }
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */

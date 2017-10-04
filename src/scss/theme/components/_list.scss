@@ -2,6 +2,35 @@
 &list {
     @include rem('margin-bottom', 60px);
 
+    .list-title {
+        color: $color-blue;
+        padding-bottom: 10px;
+    }
+    .toggle-filter {
+        a {
+            font-family: $FrutigerLTStd-Bold;
+            color: $color-black;
+            text-decoration: none;
+            .arrow {
+                border: solid black;
+                border-width: 0 2px 2px 0;
+                display: inline-block;
+                padding: 3px;
+                vertical-align: middle;
+                position: relative;
+                left: 5px;
+                &.up {
+                    transform: rotate(-135deg);
+                    top: 1px;
+                }
+                &.down {
+                    transform: rotate(45deg);
+                    top: -3px;
+                }
+            }
+        }
+    }
+
     .list {
         list-style: none;
         border-top: solid $color-light-gray 1px;
@@ -9,7 +38,7 @@
         > li {
             position: relative;
             border-bottom: solid $color-light-gray 1px;
-
+            
             &.active {
                 a {
                     font-family: $FrutigerLTStd-Bold;
@@ -63,6 +92,16 @@
                     background: url('../images/chevron-red.svg') no-repeat top left;
                 }
             }
+        }
+    }   
+}
+
+
+/* Extra small devices (mobile, under 768px) */
+@media (max-width: $screen-xs-max) {
+    &list {
+        .education-list {
+            display: none;
         }
     }
 }
