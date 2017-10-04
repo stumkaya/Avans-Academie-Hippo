@@ -58,10 +58,6 @@ body {
 
                     > li {
                         font-family: $FrutigerLTStd-Roman;
-
-                        > ul {
-                            @include rem('padding-left', 30px);
-                        }
                     }
                 }
 
