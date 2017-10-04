@@ -54,7 +54,7 @@
     } 
 
     > .video-wrapper + div {
-        background-color: $color-red;
+        background-color: $color-blue;
         @include rem('padding', 20px 20px 30px);
     }
 }

@@ -63,7 +63,7 @@ body {
                                     color: $color-black;
 
                                     &:hover {
-                                        color: $color-red;
+                                        color: $color-blue;
                                     }
                                 }
 
@@ -261,7 +261,7 @@ body {
                                         > a {
                                             color: $color-black;
                                             background-color: transparent;
-                                            border-bottom: solid 3px $color-red;
+                                            border-bottom: solid 3px $color-blue;
                                         }
                                     }
 
@@ -274,7 +274,7 @@ body {
 
                                         &:hover {
                                             color: $color-black;
-                                            border-bottom: solid 3px $color-red;
+                                            border-bottom: solid 3px $color-blue;
                                         }
                                     }
                                 }

@@ -82,7 +82,7 @@
             }
 
             > a.card:hover, > a.card:focus {
-                background-color: $color-red;
+                background-color: $color-blue;
                 text-decoration: none;
                 outline: none;
 
@@ -108,14 +108,14 @@
                     width: 100%;
 
                     &:hover {
-                        background-color: $color-red;
+                        background-color: $color-blue;
                         color: $color-black;
                         text-decoration: none;
 
                         > div {
 
                             &:after {
-                                @include opacity('background-color', $color-red, 20);
+                                @include opacity('background-color', $color-blue, 20);
                             }
 
                             img {

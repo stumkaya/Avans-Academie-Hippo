@@ -8,7 +8,7 @@
         @include rem('margin-bottom', 70px);
 
         &.ad {
-            border: solid 2px $color-red;            
+            border: solid 2px $color-blue;            
         }
 
         h3 {
@@ -21,7 +21,7 @@
             position: absolute;
             right: 0;
             top: 0;
-            background-color: $color-red;
+            background-color: $color-blue;
             color: $color-white;
             @include rem('margin-top', -1px);
             @include rem('margin-right', -1px);
@@ -34,7 +34,7 @@
 
         .duur {
             float: right;
-            color: $color-red;
+            color: $color-blue;
         }
 
         p.kenmerk {
@@ -107,7 +107,7 @@
         color: $color-black;
     }
     .pager-left a:hover .pager-right a:hover {
-        color: $color-red;
+        color: $color-blue;
         text-decoration: underline;
     }
 

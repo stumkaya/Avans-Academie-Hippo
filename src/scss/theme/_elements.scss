@@ -86,7 +86,7 @@ body {
         border: 0;
 
         &.btn-primary {
-            background-color: $color-red;
+            background-color: $color-blue;
 
             &:hover {
                 background-color: $color-black;
@@ -242,7 +242,7 @@ body {
 
                 &:first-child() {
                     font-family: $FrutigerLTStd-Bold;
-                    color: $color-red;
+                    color: $color-blue;
                     @include rem('padding-right', 40px);
                     white-space: nowrap;
                 }

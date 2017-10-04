@@ -41,7 +41,7 @@
     &.widget-red {
 
         > div {
-            background-color: $color-red;
+            background-color: $color-blue;
 
             p {
                 font-family: $FrutigerLTStd-BlackCn;
@@ -101,7 +101,7 @@
 
         > div {
             background-color: $color-white;
-            border: solid 2px $color-red;
+            border: solid 2px $color-blue;
             @include rem('padding',  25px 20px);
 
             p {
@@ -137,7 +137,7 @@
 
                 strong {
                     font-family: $FrutigerLTStd-BlackCn;
-                    color: $color-red;
+                    color: $color-blue;
                 }
             }
 
