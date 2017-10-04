@@ -7,13 +7,26 @@
     </div>
     }
     <div class="row cards">
-
-        @@include('./_study.html', {"title": "Finance", "subtitle": "Ad Accountancy"})
-        @@include('./_study.html', {"title": "Business", "subtitle": "Ad Bedrijfskunde"})
-        @@include('./_study.html', {"title": "Communicatie", "subtitle": "Ad Communicatie"})
-        @@include('./_study.html', {"title": "Human Resource Management", "subtitle": "Ad HRM"})
-        @@include('./_study.html', {"title": "ICT", "subtitle": "Ad Informatica"})
-        @@include('./_study.html', {"title": "Marketing", "subtitle": "Ad Marketing Management"})
-        @@include('./_study.html', {"title": "Ondernemen", "subtitle": "Ad Small Business en Retail Management"})
+        <div class="col-sm-4 component-list">
+            <ul class="list">
+                <li class="active"><a href="#">Alle interessegebieden</a></li>
+                <li><a href="#">Aarde en Milieu</a></li>
+                <li><a href="#">Quisque gravida est tortor</a></li>
+                <li><a href="#">Morbi ut est leo</a></li>
+                <li><a href="#">Quisque gravida est</a></li>
+                <li><a href="#">Morbi molestie lorem at enim</a></li>
+                <li><a href="#">Phasellus finibus ornare</a></li>
+                <li><a href="#">Duis rhoncus arcu at dui rutrum</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-8">
+            @@include('./_study.html', {"title": "Finance", "subtitle": "Ad Accountancy", "filterClasses": "show-all accountancy"})
+            @@include('./_study.html', {"title": "Business", "subtitle": "Ad Bedrijfskunde", "filterClasses": "show-all bedrijfskunde"})
+            @@include('./_study.html', {"title": "Communicatie", "subtitle": "Ad Communicatie", "filterClasses": "show-all communicatie"})
+            @@include('./_study.html', {"title": "Human Resource Management", "subtitle": "Ad HRM", "filterClasses": "show-all hrm"})
+            @@include('./_study.html', {"title": "ICT", "subtitle": "Ad Informatica", "filterClasses": "show-all informatica"})
+            @@include('./_study.html', {"title": "Marketing", "subtitle": "Ad Marketing Management", "filterClasses": "show-all management"})
+            @@include('./_study.html', {"title": "Ondernemen", "subtitle": "Ad Small Business en Retail Management", "filterClasses": "show-all sbrm"})
+        </div>
     </div>
 </div>

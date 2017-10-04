@@ -10,6 +10,13 @@
             position: relative;
             border-bottom: solid $color-light-gray 1px;
 
+            &.active {
+                a {
+                    font-family: $FrutigerLTStd-Bold;
+                    color: $color-blue;
+                }
+            }
+
             &:after {
                 content: '';
                 display: block;
