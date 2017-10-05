@@ -67,6 +67,10 @@
         background-color: #f2f2f2;
         padding: 0;
         height: 369px;
+        a {
+            position: relative;
+            z-index: 9;
+        }
         &::after {
             content: "";
             display: block;
