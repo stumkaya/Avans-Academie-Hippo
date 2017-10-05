@@ -27,6 +27,7 @@
         }
     }
 
+    > .homepage-initiative-wrapper,
     > .video-wrapper {
         clear: both;
         position: relative;
@@ -56,6 +57,28 @@
     > .video-wrapper + div {
         background-color: $color-blue;
         @include rem('padding', 20px 20px 30px);
+    }
+    .initiative-logos-wrapper {
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: space-around; /* Safari 6.1+ */
+        background-color: #f2f2f2;
+        padding: 0;
+        height: 369px;
+        &::after {
+            content: "";
+            display: block;
+            width: 190px;
+            height: 100%;
+            left: 50%;
+            position: absolute;
+            opacity: .07;
+            background: linear-gradient(90deg,#000 0,transparent);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00000000",GradientType=1);
+            transform: skewx(-13deg);
+        }
     }
 }
 
