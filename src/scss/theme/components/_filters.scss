@@ -1,7 +1,7 @@
 
 &filters {
+    padding-bottom: 20px;
     > .toggle-filter {
-        padding-bottom: 10px;
         > a {
             font-family: $FrutigerLTStd-Bold;
             color: $color-black;
@@ -28,6 +28,11 @@
     > .education-filters {
         > label {
             display: block;
+            span {
+                // font-size: 14px;
+                @include font-size(1.4);
+                padding-left: 10px;
+            }
         }
         > .filters-title {
             color: $color-blue;
