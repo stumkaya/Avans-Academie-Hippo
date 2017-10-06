@@ -119,6 +119,16 @@ body {
             img {
                 vertical-align: top;
                 padding-bottom: 20px;
+                max-height: 45px;
+                margin-top: 5px;
+            }
+            a {
+                text-decoration: none;
+                &:first-child {
+                    img {
+                        margin-right: 15px;
+                    }
+                }
             }
         }
     }

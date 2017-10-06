@@ -66,19 +66,30 @@
         -webkit-justify-content: space-around; /* Safari 6.1+ */
         background-color: #f2f2f2;
         padding: 0;
-        height: 369px;
+        height: 322px;
         a {
             position: relative;
             z-index: 9;
+            &:first-child {
+                img {
+                    height: 48px;
+                    right: -20px;
+                    top: 3px;
+                    position: relative;
+                }
+            }
+        }
+        img {
+            height: 50px;
         }
         &::after {
             content: "";
             display: block;
-            width: 190px;
+            width: 170px;
             height: 100%;
-            left: 50%;
+            left: 49%;
             position: absolute;
-            opacity: .07;
+            opacity: .05;
             background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
             background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
