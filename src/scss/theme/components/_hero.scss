@@ -312,3 +312,11 @@
         }
     }
 }
+
+@media (min-width: $screen-xl-min) {
+    &hero {
+        > .hero-overlay {
+            width: 71%;
+        }
+    }
+}
