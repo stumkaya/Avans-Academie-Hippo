@@ -3,7 +3,7 @@
     @include rem('margin-bottom', 60px);
 
     .list-title {
-        color: $color-blue;
+        color: $color-red;
         padding-bottom: 10px;
     }
     .toggle-filter {
@@ -42,7 +42,7 @@
             &.active {
                 a {
                     font-family: $FrutigerLTStd-Bold;
-                    color: $color-blue;
+                    color: $color-red;
                 }
             }
 

@@ -7,23 +7,76 @@
     </div>
     }
     <div class="row cards">
-        <div class="col-sm-4 component-list">
-        <div class="toggle-filter visible-xs">
-            <a href="#" onclick="false">
-                Toon filters 
-                <i class="arrow down"></i>
-            </a>
-        </div>
-            <ul class="list education-list">
-                <li class="active"><a href="#">Alle interessegebieden</a></li>
-                <li><a href="#">Aarde en Milieu</a></li>
-                <li><a href="#">Quisque gravida est tortor</a></li>
-                <li><a href="#">Morbi ut est leo</a></li>
-                <li><a href="#">Quisque gravida est</a></li>
-                <li><a href="#">Morbi molestie lorem at enim</a></li>
-                <li><a href="#">Phasellus finibus ornare</a></li>
-                <li><a href="#">Duis rhoncus arcu at dui rutrum</a></li>
-            </ul>
+        <div class="col-sm-4 component-filters">
+            <div class="toggle-filter visible-xs">
+                <a href="#" onclick="false">
+                    Toon filters 
+                    <i class="arrow down"></i>
+                </a>
+            </div>
+            <form action="#" class="education-filters">
+                <div class="filters-title">Interessegebieden</div>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="aarde-en-milieu">
+                    <span>
+                        Aarde en Milieu
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="economie-en-bedrijf">
+                    <span>
+                        Economie en Bedrijf
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="exact-en-informatica">
+                    <span>
+                        Exact en Informatica
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="gedrag-en-maatschappij">
+                    <span>
+                        Gedrag en Maatschappij
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="gezondheid">
+                    <span>
+                        Gezondheid
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="kunst-en-cultuur">
+                    <span>
+                        Kunst en Cultuur
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="onderwijs-en-opvoeding">
+                    <span>
+                        Onderwijs en Opvoeding
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="recht-en-bestuur">
+                    <span>
+                        Recht en Bestuur
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="taal-en-communicatie">
+                    <span>
+                        Taal en Communicatie
+                    </span>
+                </label>
+                <label>
+                    <input name="interessegebied" type="checkbox" value="techniek">
+                    <span>
+                        Techniek
+                    </span>
+                </label>
+            </form>
         </div>
         <div class="col-sm-8">
             @@include('./_study.html', {"title": "Finance", "subtitle": "Ad Accountancy", "filterClasses": "show-all accountancy"})
