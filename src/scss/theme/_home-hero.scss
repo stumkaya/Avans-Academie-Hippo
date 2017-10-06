@@ -233,3 +233,25 @@ body {
         }
     }
 }
+
+@media (min-width: $screen-xl-min) {
+    body {
+        header.home-hero {
+            .component-hero {
+                > .container {
+                    > .row {
+                        &.banner {
+                            > * {
+                                &:first-child() {
+                                    &:before {
+                                        right: -17%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

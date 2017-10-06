@@ -28,7 +28,7 @@
                             position: absolute;
                             height: 100%;
                             width: 600%;
-                            right: -79px;
+                            right: -17%;
                             transform: skew(-10deg);
                             @include opacity('background-color', $color-black, 50);
                         }
@@ -254,6 +254,24 @@
                             top: 66%;
                             bottom: initial;
                             margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $screen-xl-min) {
+    &hero {
+        > .container {
+            > .row {
+                &.banner {
+                    > * {
+                        &:first-child() {
+                            &:before {
+                                right: -27%;
+                            }
                         }
                     }
                 }
