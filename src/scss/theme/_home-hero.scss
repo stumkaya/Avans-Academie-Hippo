@@ -39,7 +39,10 @@ body {
                 }
 
                 > .hero-overlay { 
-                    width: 63%;
+                    width: 66%;
+                    display: none;
+                    left: -7%;
+                    z-index: 0;
                 }
 
                 > .container {
@@ -169,6 +172,7 @@ body {
                 position: relative;
                 background-size: cover;
                 background-position: center;
+                
 
                 > .navbar.navbar-default {
                     position: absolute;
@@ -188,7 +192,9 @@ body {
                 .component-hero {
                     margin-top: 0;
                     background-color: transparent;
-
+                    .hero-overlay {
+                        display: block;
+                    }
                     > .container {
 
                         > .row {
@@ -223,12 +229,18 @@ body {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
-        
+    
     body {
 
         > .container-fluid {
 
             > header.home-hero {
+
+                .component-hero {
+                    > .hero-overlay { 
+                        width: 63%;
+                    }
+                }
 
                 > .navbar.navbar-default {
                     width: $container-lg;

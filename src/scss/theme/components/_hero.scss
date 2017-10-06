@@ -1,16 +1,14 @@
 
 &hero {
     background-color: $color-black;
-    overflow: hidden;
     position: relative;
     > .hero-overlay {
-        display: block;
         position: absolute;
         height: 100%;
-        width: 49%;
+        width: 72%;
         top: 0;
-        left: -100px;
-        z-index: 0;
+        left: -27%;
+        z-index: 1;
         opacity: .8;
         -ms-transform: skew(-10deg);
         transform: skew(-11deg);
@@ -30,11 +28,23 @@
             height: 100%;
             opacity: .8;
         }
+        .hero-after {
+            position: absolute;
+            background-color: #000;
+            display: block;
+            bottom: 0;
+            width: 100%;
+        }
     }
     > .container {
         height: 100%;
         position: relative;
         padding: 0;
+
+        .hero-text {
+            position: relative;
+            z-index: 2;
+        }
 
         > .row {
             margin: 0;
@@ -128,6 +138,10 @@
         background-position: top;
         @include rem('padding', 0 15px);
 
+        .hero-overlay {
+            width: 65%;
+        }
+
         > .container {
             width: $container-sm;
 
@@ -189,11 +203,19 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
     &hero {
+        overflow: hidden;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         overflow: hidden;
 
+        > .hero-overlay {
+            display: block;
+            width: 68%;
+            .hero-after {
+                display: none;
+            }
+        }
         > .container {
             position: relative;
             width: $container-md;
