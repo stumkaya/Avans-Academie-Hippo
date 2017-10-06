@@ -110,6 +110,9 @@ var HeroBanner = (function () {
         resizeHandler.register(function () {
             that.setHeroBanner();
         });
+        jQuery(window).load(function() {
+            that.setHeroBanner();
+        });
     };
     
     HeroBanner.prototype.registerEvents = function () {
