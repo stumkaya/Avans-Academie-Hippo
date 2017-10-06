@@ -2,7 +2,7 @@
 	var filtersVisible = false;
 	var toggleFilter = jQuery('.toggle-filter');
 	var arrow = jQuery(toggleFilter).find('.arrow');
-	var filterList = jQuery('.education-list');
+	var filterList = jQuery('.education-filters');
 	toggleFilter.on('click', function() {
 		if (!filtersVisible) {
 			filterList.slideDown(200);

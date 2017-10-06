@@ -6,31 +6,7 @@
         color: $color-blue;
         padding-bottom: 10px;
     }
-    .toggle-filter {
-        a {
-            font-family: $FrutigerLTStd-Bold;
-            color: $color-black;
-            text-decoration: none;
-            .arrow {
-                border: solid black;
-                border-width: 0 2px 2px 0;
-                display: inline-block;
-                padding: 3px;
-                vertical-align: middle;
-                position: relative;
-                left: 5px;
-                &.up {
-                    transform: rotate(-135deg);
-                    top: 1px;
-                }
-                &.down {
-                    transform: rotate(45deg);
-                    top: -3px;
-                }
-            }
-        }
-    }
-
+    
     .list {
         list-style: none;
         border-top: solid $color-light-gray 1px;
@@ -96,15 +72,6 @@
     }   
 }
 
-
-/* Extra small devices (mobile, under 768px) */
-@media (max-width: $screen-xs-max) {
-    &list {
-        .education-list {
-            display: none;
-        }
-    }
-}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {

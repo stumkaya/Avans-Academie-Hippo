@@ -1,7 +1,36 @@
 
 &hero {
     background-color: $color-black;
-
+    overflow: hidden;
+    position: relative;
+    > .hero-overlay {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 49%;
+        top: 0;
+        left: -100px;
+        z-index: 0;
+        opacity: .8;
+        -ms-transform: skew(-10deg);
+        transform: skew(-11deg);
+        background-color: #000;
+        background: rgb(0,82,147); /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(0,82,147,1) 0%, rgba(198,0,42,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0,82,147,1) 0%,rgba(198,0,42,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0,82,147,1) 0%,rgba(198,0,42,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005293', endColorstr='#c6002a',GradientType=1 ); /* IE6-9 */
+        &::before {
+            content: "";
+            background-color: #000;
+            background-color: rgba(0,0,0,.5);
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: .8;
+        }
+    }
     > .container {
         height: 100%;
         position: relative;
@@ -22,7 +51,7 @@
                     &:first-child() {
                         position: relative;
 
-                        &:before {
+                        /* &:before {
                             content: '';
                             display: block;
                             position: absolute;
@@ -31,7 +60,7 @@
                             right: -79px;
                             transform: skew(-10deg);
                             @include opacity('background-color', $color-black, 50);
-                        }
+                        } */
                     }
 
                     &:last-child() {
