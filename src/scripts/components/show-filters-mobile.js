@@ -1,9 +1,18 @@
 (function() {
 	var filtersVisible = false;
 	var toggleFilter = jQuery('.toggle-filter');
+	var showFilterButton = jQuery('.show-filter-button');
+	var deleteFilterButton = jQuery('.delete-filter-button');
 	var arrow = jQuery(toggleFilter).find('.arrow');
 	var filterList = jQuery('.education-filters');
-	toggleFilter.on('click', function() {
+	function checkFilters() {
+		if ($('input[name=interessegebied]:checked').length > 0) {
+			deleteFilterButton.show();
+		} else {
+			deleteFilterButton.hide();
+		}
+	}
+	showFilterButton.on('click', function() {
 		if (!filtersVisible) {
 			filterList.slideDown(200);
 			arrow
@@ -19,6 +28,11 @@
 		}
 		return false;
 	});
+	deleteFilterButton.on('click', function(){
+		$('input[name=interessegebied]').prop('checked', false);
+		$(this).hide();
+		return false;
+	});
 	jQuery(window).resize(function() {
 		if (toggleFilter.css('display') == 'none') {
 			filterList.show();
@@ -29,5 +43,11 @@
 				filterList.hide();
 			}
 		}
+	});
+	$('input[name=interessegebied]').on('change', function(){
+		checkFilters();
+	});
+	jQuery(document).ready(function() {
+		checkFilters();
 	});
 })();
