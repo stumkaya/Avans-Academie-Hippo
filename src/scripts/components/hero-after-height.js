@@ -7,7 +7,9 @@
 			heroAfter.height(heroTextHeight);
 		}
 	}
-	setHeroAfterHeight();
+	jQuery(document).ready(function () {
+		setHeroAfterHeight();
+	});
 	window.onresize = function() {
 		setHeroAfterHeight();
 	}
